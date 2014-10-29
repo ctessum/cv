@@ -1,0 +1,250 @@
+\documentclass[margin,line]{res}
+\usepackage{nopageno}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[colorlinks=true,linkcolor=OliveGreen,citecolor=OliveGreen,urlcolor=OliveGreen]{hyperref}
+\usepackage{url}
+\usepackage[isbn=false,sorting=none,style=numeric-comp,maxnames=99]{biblatex}
+
+
+\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/cv.bib}
+\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/Posters.bib}
+\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/Presentations.bib}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\addtolength{\textheight}{0.6in}
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\hspace{-1.35in} Christopher Tessum}
+\rhead{\thepage}
+\cfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headsep}{1cm}
+\addtolength{\topmargin}{-1cm}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+% Make numbers go in reverse
+\makeatletter
+% Define an entry counter for each refsection
+\AtBeginEnvironment{refsection}{%
+  \csnumgdef{blx@entrycount@\the\c@refsection}{0}} 
+
+% Set counter to the total number of entries in the refsection
+\AtDataInput{%
+  \csnumgdef{blx@entrycount@\the\c@refsection}{%
+    \csuse{blx@entrycount@\the\c@refsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{blx@entrycount@\the\c@refsection}+1-#1\relax}
+
+
+\begin{document}
+
+\name{Christopher Tessum \vspace*{.1in}}
+\thispagestyle{empty}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{1.6in}p{1.7in}p{2.5in}}
+500 Pillsbury Dr. SE	& 
+%{\it Phone:} +1 (612) 568-2238 & 
+{\it Phone:} +1 (612) 986-3941 & 
+{\it Website:} \url{www.tc.umn.edu/~tess0050} \\            
+Minneapolis, MN 55455		& 
+%{\it E-mail:}  umn.edu$\leftrightarrow$tess0050 & \\  
+{\it E-mail:}  tess0050@umn.edu & \\     		    
+\end{tabular}
+
+\section{\sc Research Interests}
+
+Air pollution, energy conversion systems, life cycle assessment, public health, environmental justice, scientific model development, climate change
+
+\vspace*{.1in}
+
+\section{\sc Academic Experience}
+\textbf{University of Minnesota}, Minneapolis, Minnesota USA\\
+
+%Remove space if enough text
+\vspace*{-.1in}
+
+\begin{list1}
+\item[] \textbf{Doctoral Candidate}, Civil Engineering \hfill January 2009 -- July 2014 (expected)\\
+\begin{list2}
+\vspace*{-.12in}
+\item \textbf{GPA: 3.64/4.0}
+\item Dissertation: \textit{Life Cycle Air Quality and Climate Impacts of Conventional and Alternative Light-Duty Transportation in the United States}
+\item Minor: Public Health
+\item Advisor:  Julian Marshall
+\end{list2}
+
+\vspace*{.1in}
+
+\item[] B.M.E., Mechanical Engineering \hfill September 2002 -- May 2006\\
+\vspace*{-.12in}
+\begin{list2}
+\item {\bf G.P.A. 3.66/4.0
+\item {\em cum laude}}
+\item G.R.E. verbal: 740, quantitative: 740, analytical writing: 4.5
+\item Thesis: \textit{The influence of engine load, ignition timing, and fuel-air ratio on the ultrafine particulate emissions from a natural gas spark ignition engine.}
+\end{list2}
+\end{list1}
+
+%University of Melbourne, Melbourne, Australia\\
+
+%\vspace*{-.1in}
+
+%\begin{list1}
+%\item[] International Study \hfill February -- June 2004\\
+%\end{list1}
+
+\defbibheading{pubs}[\sc Peer-Reviwed Publications]{\section{#1}}
+\begin{refsection}
+%Tessum2013e,
+\nocite{Tessum2014a,Tessum2013d,Tessum2013,Tessum2012,Millet2012}
+\printbibliography[heading=pubs]
+\end{refsection}
+
+%Remove space if enough text
+\vspace*{-.1in}
+
+\defbibheading{pres}[\sc Invited Presentations]{\section{#1}}
+\begin{refsection}
+\nocite{Tessum2014b,Tessum2013c,Tessum2013b,TessumBeiDa2013,TessumChinaCDC2013,TessumSETAC2012,TessumISEE2011,
+TessumPeking2011,TessumMAS2011,TessumBrazil2009}
+\printbibliography[heading=pres]
+\end{refsection}
+
+%Remove space if enough text
+\vspace*{-.1in}
+
+\defbibheading{post}[\sc Posters]{\section{#1}}
+\begin{refsection}
+\nocite{Tessum2014c,Tessum2013a,TessumE32011,TessumIonE2011,TessumLCA2011,TessumMSI2011,TessumE32010}
+\printbibliography[heading=post]
+\end{refsection}
+
+%Remove space if enough text
+\vspace*{-.1in}
+\clearpage
+
+\defbibheading{rep}[\sc Reports]{\section{#1}}
+\begin{refsection}
+\nocite{Tessum2010a,Tessum2010}
+\printbibliography[heading=rep]
+\end{refsection}
+
+%Remove space if enough text
+%\vspace*{-.1in}
+
+
+
+\section{\sc Teaching Experience}
+
+{\bf Civil Engineering 5561: Air Quality Engineering}, University of Minnesota\\
+{\em Teaching Assistant} \hfill Spring 2013\\
+\vspace{-.3cm}
+Instructor: Julian Marshall\\
+\begin{list2}
+\item Graded homework questions and exams
+\item Answered student questions
+\end{list2}
+
+\vspace*{-.1in}
+
+{\bf Instituto Cultural Peruano Norteamericano}, Chiclayo, Per\'{u}\\
+\vspace{-.3cm}
+{\em English Teacher} \hfill October -- December 2008\\
+\begin{list2}
+\item Taught classes of 20-30 students aged 10-20
+\item Designed and graded homework assignments and exams
+\end{list2}
+
+%Remove space if enough text
+%\vspace*{-.1in}
+
+\section{\sc Professional Experience}
+
+{\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
+\vspace{-.3cm}
+{\em Owner; independent contractor for EcoEngineers LLC} \hfill 2012 -- Present\\
+\begin{list2}
+\item Carried out life cycle assessment for California Low Carbon Fuel Standard permitting
+\end{list2}
+
+\vspace*{-.1in}
+
+{\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
+\vspace{-.3cm}
+{\em Owner; independent contractor for Smithfield Packing Co.} \hfill May -- September 2008\\
+\begin{list2}
+\item Specified, justified, and arranged purchase of energy efficient equipment
+\item Worked with plant staff and equipment manufacturers to determine the best energy efficient  products for Smithfield
+\item Created air flow and heat transfer model of refrigerated areas
+\end{list2}
+
+\vspace*{-.1in}
+
+{\bf Energy Management Solutions, Inc.}, Minneapolis, Minnesota USA\\
+\vspace{-.3cm}
+{\em Engineer} \hfill June 2007 -- April 2008\\
+\begin{list2}
+\item Performed energy efficiency audits at industrial facilities
+\item Worked with plant staff to implement energy efficiency improvements
+\item Calculated and measured predicted and real energy savings due to the installation of energy efficient equipment
+\end{list2}
+
+\vspace*{-.1in}
+
+{\bf Volvo Car Corporation}, Gothenburg, Sweden\\
+\vspace{-.3cm}
+{\em Aerodynamics Intern} \hfill August -- December 2006\\
+\begin{list2}
+\item Operated wind tunnel to perform aerodynamic research on scale models
+\item Assisted staff engineers in the setup of project tests
+\item Wrote LabVIEW programs for wind tunnel data acquisition
+\end{list2}
+
+\vspace*{-.1in}
+
+{\bf Voith Paper AG}, Heidenheim an der Brenz, Germany\\
+\vspace{-.3cm}
+{\em Automation Intern} \hfill May -- August 2006\\
+\begin{list2}
+\item Wrote LabVIEW programs for sensor control
+\end{list2}
+
+\section{\sc Honors and Awards} 
+Admission to First Annual Fulbright US--Brazil Biofuels Short Course \hfill 2009\\
+\vspace*{-.3in}
+
+National Merit Scholarship			\hfill 2002 -- 2006\\
+
+
+\end{resume}
+\end{document}
+
+
+
+
