@@ -1,10 +1,11 @@
-\documentclass[margin,line]{res}
+\documentclass[margin,line,10pt]{res}
 \usepackage{nopageno}
 
 \usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage[colorlinks=true,linkcolor=OliveGreen,citecolor=OliveGreen,urlcolor=OliveGreen]{hyperref}
 \usepackage{url}
 \usepackage[isbn=false,sorting=none,style=numeric-comp,maxnames=99]{biblatex}
+\usepackage{lastpage}
 
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{Linux Libertine O}
@@ -29,7 +30,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{\hspace{-1.35in} Christopher Tessum}
-\rhead{\thepage}
+\rhead{Page \thepage\ of \pageref{LastPage}}
 \cfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\headsep}{1cm}
@@ -84,17 +85,17 @@ Minneapolis, MN 55455		&
 {\it E-mail:}  tess0050@umn.edu & \\     		    
 \end{tabular}
 
-\section{\sc Research\\Interests}
+\section{\sc Research\\Area}
 
-Air pollution, energy conversion systems, life cycle assessment, public health, environmental justice, scientific model development, climate change
+\textbf{Understanding and reducing air quality-related public health impacts}, with a focus on life cycle assessment and scientific model development
 
-\vspace*{.1in}
+%\vspace*{-.1in}
 
 \section{\sc Academic\\Experience}
 \textbf{University of Minnesota}, Minneapolis, Minnesota USA\\
 
 %Remove space if enough text
-\vspace*{-.1in}
+\vspace*{-.13in}
 
 \begin{list1}
 \item[] \textbf{Doctoral Candidate}, Civil Engineering \hfill January 2009 -- December 2014 (expected)\\
@@ -103,10 +104,10 @@ Air pollution, energy conversion systems, life cycle assessment, public health, 
 \item \textbf{GPA: 3.64/4.0}
 \item Dissertation: \textit{Life Cycle Air Quality and Climate Impacts of Conventional and Alternative Light-Duty Transportation in the United States}
 \item Minor: Public Health
-\item Advisor:  Julian Marshall
+\item Advisor:  Dr. Julian D. Marshall
 \end{list2}
 
-\vspace*{.1in}
+\vspace*{.05in}
 
 \item[] B.M.E., Mechanical Engineering \hfill September 2002 -- May 2006\\
 \vspace*{-.12in}
@@ -114,53 +115,78 @@ Air pollution, energy conversion systems, life cycle assessment, public health, 
 \item {\bf G.P.A. 3.66/4.0
 \item {\em cum laude}}
 \item G.R.E. verbal: 740, quantitative: 740, analytical writing: 4.5
-\item Thesis: \textit{The influence of engine load, ignition timing, and fuel-air ratio on the ultrafine particulate emissions from a natural gas spark ignition engine.}
+\item Thesis: \textit{The Influence of Engine Load, Ignition Timing, and Fuel-Air Ratio on the Ultrafine Particulate Emissions from a Natural Gas Spark Ignition Engine.}
 \end{list2}
 \end{list1}
 
 %University of Melbourne, Melbourne, Australia\\
 
-%\vspace*{-.1in}
+
 
 %\begin{list1}
 %\item[] International Study \hfill February -- June 2004\\
 %\end{list1}
 
-\defbibheading{pubs}[\sc Peer-Reviwed Publications]{\section{#1}}
+
+\section{\sc Honors and\\Awards} 
+\begin{list2}
+\item Third place student poster award: American Center for
+Life Cycle Analysis Annual Conference \hfill 2011
+\item Admission to First Annual Fulbright US--Brazil Biofuels Short Course \hfill 2009
+\item National Merit Scholarship			\hfill 2002 -- 2006\\
+\end{list2}
+
+\vspace*{-.2in}
+
+\defbibheading{pubs}[\sc Peer-Reviewed Publications]{\section{#1}}
 \begin{refsection}
 %Tessum2013e,
-\nocite{Tessum2014a,Tessum2013d,Tessum2013,Tessum2012,Millet2012}
+\nocite{Tessum2014a,Tessum2013d,Tessum2012,Millet2012}
 \printbibliography[heading=pubs]
 \end{refsection}
 
+
+\defbibheading{pubs}[\sc Articles Submitted for Peer Review]{\section{#1}}
+\begin{refsection}
+%Tessum2013e,
+\nocite{Hu2014,Tessum2013}
+\printbibliography[heading=pubs]
+\end{refsection}
+
+\clearpage
+
+\defbibheading{rep}[\sc Reports and Other Publications]{\section{#1}}
+\begin{refsection}
+\nocite{Tessum2010a,Tessum2010}
+\printbibliography[heading=rep]
+\end{refsection}
+
 %Remove space if enough text
-\vspace*{-.1in}
+%\vspace*{-.1in}
 
 \defbibheading{pres}[\sc Invited Presentations]{\section{#1}}
 \begin{refsection}
-\nocite{Tessum2014AAAR,Tessum2014b,Tessum2013c,Tessum2013b,TessumBeiDa2013,TessumChinaCDC2013,TessumSETAC2012,TessumISEE2011,
-TessumPeking2011,TessumMAS2011,TessumBrazil2009}
+\nocite{Tessum2014LBNL,Tessum2014NatCap,Tessum2013AWMA,TessumBeiDa2013,TessumChinaCDC2013,
+TessumPeking2011,TessumMAS2011}
 \printbibliography[heading=pres]
 \end{refsection}
 
 %Remove space if enough text
 \vspace*{-.1in}
 
-\defbibheading{post}[\sc Posters]{\section{#1}}
+\defbibheading{post}[\sc Conference Presentations]{\section{#1}}
 \begin{refsection}
-\nocite{Tessum2014ISEE,Tessum2014c,Tessum2013a,TessumE32011,TessumIonE2011,TessumLCA2011,TessumMSI2011,TessumE32010}
+\nocite{Tessum2014AAAR,Tessum2014ISEE,Tessum2013ISEE,Tessum2013MSI,TessumSETAC2012,
+TessumE32011,TessumIonE2011,TessumLCA2011,TessumISEE2011,TessumMSI2011,TessumE32010,
+TessumBrazil2009}
 \printbibliography[heading=post]
 \end{refsection}
 
-%Remove space if enough text
-\vspace*{-.1in}
-\clearpage
 
-\defbibheading{rep}[\sc Reports]{\section{#1}}
-\begin{refsection}
-\nocite{Tessum2010a,Tessum2010}
-\printbibliography[heading=rep]
-\end{refsection}
+%Remove space if enough text
+%\vspace*{-.1in}
+%\clearpage
+
 
 %Remove space if enough text
 %\vspace*{-.1in}
@@ -172,7 +198,7 @@ TessumPeking2011,TessumMAS2011,TessumBrazil2009}
 {\bf Civil Engineering 5561: Air Quality Engineering}, University of Minnesota\\
 {\em Teaching Assistant} \hfill Spring 2013\\
 \vspace{-.3cm}
-Instructor: Julian Marshall\\
+Instructor: Dr. Julian Marshall\\
 \begin{list2}
 \item Graded homework questions and exams
 \item Answered student questions
@@ -195,7 +221,7 @@ Instructor: Julian Marshall\\
 
 {\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
 \vspace{-.3cm}
-{\em Owner; independent contractor for EcoEngineers LLC} \hfill 2012 -- Present\\
+{\em Owner; independent contractor for EcoEngineers LLC} \hfill 2012 -- 2013\\
 \begin{list2}
 \item Carried out life cycle assessment for California Low Carbon Fuel Standard permitting
 \end{list2}
@@ -242,11 +268,6 @@ Instructor: Julian Marshall\\
 \item Wrote LabVIEW programs for sensor control
 \end{list2}
 
-\section{\sc Honors and\\Awards} 
-Admission to First Annual Fulbright US--Brazil Biofuels Short Course \hfill 2009\\
-\vspace*{-.3in}
-
-National Merit Scholarship			\hfill 2002 -- 2006\\
 
 
 \end{resume}
