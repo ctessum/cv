@@ -457,7 +457,8 @@
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
       \field{booktitle}{American Association for Aerosol Research Annual Conference}
       \field{month}{10}
-      \field{title}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
+      \field{title}{{A reduced-complexity, variable grid resolution model for 
+PM$_{2.5}$ transport and transformation}}
       \field{year}{2014}
     \endentry
     \entry{Tessum2014ISEE}{inproceedings}{}
