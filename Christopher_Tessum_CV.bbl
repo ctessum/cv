@@ -35,8 +35,9 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Life cycle air quality impacts of conventional and alternative light-duty transportation in the United States}}
-      \field{journaltitle}{Proc. Natl. Acad. Sci. (In Press)}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
       \field{title}{{Life cycle air quality impacts of conventional and alternative light-duty transportation in the United States}}
+      \field{volume}{In press}
       \field{year}{2014}
     \endentry
     \entry{Tessum2013d}{article}{}
@@ -55,9 +56,14 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Twelve-month, 12-km resolution North American WRF-Chem air quality simulation: Performance evaluation}}
-      \field{journaltitle}{Geosci. Model Dev. Discuss. (In Press)}
+      \field{journaltitle}{Geosci. Model Dev. Discuss.}
       \field{title}{{Twelve-month, 12-km resolution North American WRF-Chem air quality simulation: Performance evaluation}}
+      \field{volume}{7}
       \field{year}{2014}
+      \field{pages}{8433\bibrangedash 8476}
+      \verb{doi}
+      \verb 10.5194/gmdd-7-8433-2014
+      \endverb
     \endentry
     \entry{Tessum2012}{article}{}
       \name{labelname}{3}{}{%
@@ -142,7 +148,7 @@
         {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
         {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
         {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=5e47d2cadcca5dd4bd3e46d498c8abad}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=859030663cdcae6e7cacaa7a5b40eb79}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
         {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{Marshall}{M\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
         {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
         {{hash=6f5264d2f4074c797f2e080bc983e77f}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F.}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
@@ -158,15 +164,15 @@
         {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
         {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
         {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=5e47d2cadcca5dd4bd3e46d498c8abad}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=859030663cdcae6e7cacaa7a5b40eb79}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
         {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{Marshall}{M\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
         {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
         {{hash=6f5264d2f4074c797f2e080bc983e77f}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F.}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
         {{hash=5537408924e7edf84ebfda86c586d4cb}{Griffis}{G\bibinitperiod}{Tim\bibnamedelima J.}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
         {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{9bd04d50c45b2069d2518f7f8d88e46b}
-      \strng{fullhash}{9bd04d50c45b2069d2518f7f8d88e46b}
+      \strng{namehash}{6b1cac11000644ce9f33114b60cac0aa}
+      \strng{fullhash}{6b1cac11000644ce9f33114b60cac0aa}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Emissions of C6-C8 aromatic compounds in the United States: Constraints from tall tower and aircraft measurements}}
@@ -457,8 +463,7 @@
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
       \field{booktitle}{American Association for Aerosol Research Annual Conference}
       \field{month}{10}
-      \field{title}{{A reduced-complexity, variable grid resolution model for 
-PM$_{2.5}$ transport and transformation}}
+      \field{title}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
       \field{year}{2014}
     \endentry
     \entry{Tessum2014ISEE}{inproceedings}{}
