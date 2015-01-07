@@ -36,9 +36,11 @@
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Life cycle air quality impacts of conventional and alternative light-duty transportation in the United States}}
       \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{number}{52}
       \field{title}{{Life cycle air quality impacts of conventional and alternative light-duty transportation in the United States}}
-      \field{volume}{In press}
+      \field{volume}{111}
       \field{year}{2014}
+      \field{pages}{18490\bibrangedash 18495}
     \endentry
     \entry{Tessum2013d}{article}{}
       \name{labelname}{3}{}{%
@@ -254,7 +256,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Assessing the sustainability of biofuels: Metrics, models, and tools for evaluating the impact of biofuels}}
-      \field{booktitle}{Expanding Biofuel Production: Sustainability and the Transition to Advanced Biofuels: Summary of a Workshop}
+      \field{booktitle}{Expand. Biofuel Prod. Sustain. Transit. to Adv. Biofuels Summ. a Work.}
       \field{isbn}{9780309147149}
       \field{title}{{Assessing the sustainability of biofuels: Metrics, models, and tools for evaluating the impact of biofuels}}
       \field{year}{2010}
@@ -288,7 +290,7 @@
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
       \field{abstract}{March 25, 2014}
-      \field{booktitle}{Lawrence Berkeley National Laboratory Environmental Energy Technologies Division Seminar Series}
+      \field{booktitle}{Lawrence Berkeley Natl. Lab. Environ. Energy Technol. Div. Semin. Ser.}
       \field{month}{03}
       \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
       \field{year}{2014}
@@ -312,7 +314,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
-      \field{booktitle}{2014 Natural Capital Annual Meeting and Training}
+      \field{booktitle}{2014 Nat. Cap. Annu. Meet. Train.}
       \field{month}{03}
       \field{title}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
       \field{year}{2014}
@@ -336,7 +338,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
-      \field{booktitle}{Air and Waste Management Association 106th Annual Conference and Exhibition}
+      \field{booktitle}{Air Waste Manag. Assoc. 106th Annu. Conf. Exhib.}
       \field{month}{07}
       \field{title}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
       \field{year}{2013}
@@ -360,7 +362,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{booktitle}{Peking University}
+      \field{booktitle}{Peking Univ.}
       \field{month}{03}
       \field{title}{{Public health implications of alternative transportation fuels in the United States}}
       \field{year}{2013}
@@ -384,7 +386,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{booktitle}{China Center for Disease Control and Prevention}
+      \field{booktitle}{China Cent. Dis. Control Prev.}
       \field{month}{03}
       \field{title}{{Public health implications of alternative transportation fuels in the United States}}
       \field{year}{2013}
@@ -410,7 +412,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Peking University}
+      \field{booktitle}{Peking Univ.}
       \field{month}{08}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -432,7 +434,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
-      \field{booktitle}{Minnesota Academy of Science Annual Meeting}
+      \field{booktitle}{Minnesota Acad. Sci. Annu. Meet.}
       \field{month}{04}
       \field{title}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
       \field{year}{2011}
@@ -461,7 +463,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
-      \field{booktitle}{American Association for Aerosol Research Annual Conference}
+      \field{booktitle}{Am. Assoc. Aerosol Res. Annu. Conf.}
       \field{month}{10}
       \field{title}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
       \field{year}{2014}
@@ -485,7 +487,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Environmental justice and equality aspects of conventional and alternative light-duty transportation in the United States}}
-      \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
+      \field{booktitle}{Int. Soc. Environ. Epidemiol. Annu. Conf.}
       \field{month}{08}
       \field{title}{{Environmental justice and equality aspects of conventional and alternative light-duty transportation in the United States}}
       \field{year}{2014}
@@ -509,7 +511,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air pollution, health, and environmental justice implications of shifting transportation fuels}}
-      \field{booktitle}{Annual Conference of the International Society for Environmental Epidemiology, International Society for Exposure Science and International Society for Indoor Air Quality}
+      \field{booktitle}{Annu. Conf. Int. Soc. Environ. Epidemiol. Int. Soc. Expo. Sci. Int. Soc. Indoor Air Qual.}
       \field{month}{08}
       \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels}}
       \field{year}{2013}
@@ -533,7 +535,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels: Synergies between climate and air quality policies}}
-      \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
+      \field{booktitle}{Minnesota Supercomput. Inst. Res. Exhib.}
       \field{month}{04}
       \field{title}{{Public health implications of alternative transportation fuels: Synergies between climate and air quality policies}}
       \field{year}{2013}
@@ -554,7 +556,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A spatially and temporally explicit life cycle inventory of air pollutants from transportation fuels in the United States}}
-      \field{booktitle}{Society for Environmental Toxicology and Chemistry North America Annual Conference}
+      \field{booktitle}{Soc. Environ. Toxicol. Chem. North Am. Annu. Conf.}
       \field{month}{11}
       \field{title}{{A spatially and temporally explicit life cycle inventory of air pollutants from transportation fuels in the United States}}
       \field{year}{2012}
@@ -580,7 +582,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Initiative for Renewable Energy and the Environment E3 Conference}
+      \field{booktitle}{Initiat. Renew. Energy Environ. E3 Conf.}
       \field{month}{11}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -606,7 +608,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Institute on the Environment Student Sustainability Symposium}
+      \field{booktitle}{Inst. Environ. Student Sustain. Symp.}
       \field{month}{10}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -632,7 +634,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{American Center for Life Cycle Analysis Annual Conference}
+      \field{booktitle}{Am. Cent. Life Cycle Anal. Annu. Conf.}
       \field{month}{10}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -659,7 +661,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
+      \field{booktitle}{Int. Soc. Environ. Epidemiol. Annu. Conf.}
       \field{month}{08}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -685,7 +687,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
-      \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
+      \field{booktitle}{Minnesota Supercomput. Inst. Res. Exhib.}
       \field{month}{04}
       \field{title}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
       \field{year}{2011}
@@ -711,7 +713,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
-      \field{booktitle}{Initiative for Renewable Energy and the Environment E3 Conference}
+      \field{booktitle}{Initiat. Renew. Energy Environ. E3 Conf.}
       \field{month}{10}
       \field{title}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
       \field{year}{2010}
@@ -735,7 +737,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Spatially and temporally explicit life-cycle analysis of biofuels}}
-      \field{booktitle}{First Annual Fulbright US-Brazil Biofuels Short Course}
+      \field{booktitle}{First Annu. Fulbright US-Brazil Biofuels Short Course}
       \field{month}{08}
       \field{title}{{Spatially and temporally explicit life-cycle analysis of biofuels}}
       \field{year}{2009}
