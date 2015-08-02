@@ -19,6 +19,39 @@
 
 \refsection{1}
   \sortlist{none}{none}
+    \entry{Tessum2015a}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=bcb0129b0c2519bae568f1afab36e8ce}{Tessum}{T\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d330f293dad5c7948fb7f56c3c8f92b4}{Hill}{H\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4743545ffeb430dc2d13df4f3f36609a}{Marshall}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=bcb0129b0c2519bae568f1afab36e8ce}{Tessum}{T\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d330f293dad5c7948fb7f56c3c8f92b4}{Hill}{H\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4743545ffeb430dc2d13df4f3f36609a}{Marshall}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{304432aa7fef63a4df0407464a53abd8}
+      \strng{fullhash}{304432aa7fef63a4df0407464a53abd8}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Twelve-month, 12 km resolution North American WRF-Chem v3.4 air quality simulation: performance evaluation}}
+      \field{issn}{1991-9603}
+      \field{journaltitle}{Geosci. Model Dev.}
+      \field{number}{4}
+      \field{title}{{Twelve-month, 12 km resolution North American WRF-Chem v3.4 air quality simulation: performance evaluation}}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{957\bibrangedash 973}
+      \verb{doi}
+      \verb 10.5194/gmd-8-957-2015
+      \endverb
+      \verb{file}
+      \verb :home/chris/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tessum, Hill, Marshall - 2015 - Twelve-month, 12 km resolution North American WRF-Chem v3.4 air quality simulation performance evaluatio.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.geosci-model-dev.net/8/957/2015/
+      \endverb
+    \endentry
     \entry{Tessum2014a}{article}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -41,30 +74,60 @@
       \field{volume}{111}
       \field{year}{2014}
       \field{pages}{18490\bibrangedash 18495}
+      \verb{file}
+      \verb :media/chris/data1/Mendeley/Tessum, Hill, Marshall/Proc. Natl. Acad. Sci. U.S.A/Tessum, Hill, Marshall - 2014 - Life cycle air quality impacts of conventional and alternative light-duty transportation in the United S.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/111/52/18490.abstract
+      \endverb
     \endentry
-    \entry{Tessum2013d}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+    \entry{Hu2014a}{article}{}
+      \name{labelname}{14}{}{%
+        {{hash=555318cce69a903918cac9982437bb3a}{Hu}{H\bibinitperiod}{Lu}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a46d4290388569aa5aeaea4fd1e17789}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3be253b170e808f820db7412f350fe3f}{Grif}{G\bibinitperiod}{Timothy\bibnamedelima J}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=55579563ed315853c5a40a39b8e49bba}{Travis}{T\bibinitperiod}{Katherine\bibnamedelima R}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=086725ed9320922b667f174d585d74d5}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=51ba619ebc6fbbb089bf3d3d4cff31cb}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=96b779653311268b9148b4f2d9df64ab}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{Müller}{M\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=74d5633072d64838651974cfc6891ffe}{Gouw}{G\bibinitperiod}{Joost\bibnamedelima De}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      \name{author}{14}{}{%
+        {{hash=555318cce69a903918cac9982437bb3a}{Hu}{H\bibinitperiod}{Lu}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a46d4290388569aa5aeaea4fd1e17789}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3be253b170e808f820db7412f350fe3f}{Grif}{G\bibinitperiod}{Timothy\bibnamedelima J}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=55579563ed315853c5a40a39b8e49bba}{Travis}{T\bibinitperiod}{Katherine\bibnamedelima R}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=086725ed9320922b667f174d585d74d5}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=51ba619ebc6fbbb089bf3d3d4cff31cb}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=96b779653311268b9148b4f2d9df64ab}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{Müller}{M\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=74d5633072d64838651974cfc6891ffe}{Gouw}{G\bibinitperiod}{Joost\bibnamedelima De}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{namehash}{03d3be2eed87203df95216014fb01a5e}
+      \strng{fullhash}{03d3be2eed87203df95216014fb01a5e}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{{Twelve-month, 12-km resolution North American WRF-Chem air quality simulation: Performance evaluation}}
-      \field{journaltitle}{Geosci. Model Dev. Discuss.}
-      \field{title}{{Twelve-month, 12-km resolution North American WRF-Chem air quality simulation: Performance evaluation}}
-      \field{volume}{7}
+      \field{labeltitle}{{Emissions of C6-C8 aromatic compounds in the United States: Constraints from tall tower and aircraft measurements}}
+      \field{journaltitle}{J. Geophys. Res. Atmos.}
+      \field{title}{{Emissions of C6-C8 aromatic compounds in the United States: Constraints from tall tower and aircraft measurements}}
       \field{year}{2014}
-      \field{pages}{8433\bibrangedash 8476}
+      \field{pages}{826\bibrangedash 842}
       \verb{doi}
-      \verb 10.5194/gmdd-7-8433-2014
+      \verb 10.1002/2014JD022627.Received
+      \endverb
+      \verb{file}
+      \verb :media/chris/data1/Mendeley/Hu et al/J. Geophys. Res. Atmos/Hu et al. - 2014 - Emissions of C6-C8 aromatic compounds in the United States Constraints from tall tower and aircraft measurements.pdf:pdf
       \endverb
     \endentry
     \entry{Tessum2012}{article}{}
@@ -140,65 +203,25 @@
 
 \refsection{2}
   \sortlist{none}{none}
-    \entry{Hu2014}{article}{}
-      \name{labelname}{14}{}{%
-        {{hash=555318cce69a903918cac9982437bb3a}{Hu}{H\bibinitperiod}{Lu}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=504fcd047e7b32b5102beb929f8ce5fe}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=4af15320de56f4d69c8748e3a1093171}{Travis}{T\bibinitperiod}{Katherine\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{Müller}{M\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=23ba4ddf2da0fa7e75eba2af8bebb1e1}{Tessum}{T\bibinitperiod}{Christoper\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=859030663cdcae6e7cacaa7a5b40eb79}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
-        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{Marshall}{M\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=6f5264d2f4074c797f2e080bc983e77f}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F.}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=5537408924e7edf84ebfda86c586d4cb}{Griffis}{G\bibinitperiod}{Tim\bibnamedelima J.}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{14}{}{%
-        {{hash=555318cce69a903918cac9982437bb3a}{Hu}{H\bibinitperiod}{Lu}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=504fcd047e7b32b5102beb929f8ce5fe}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=4af15320de56f4d69c8748e3a1093171}{Travis}{T\bibinitperiod}{Katherine\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{Müller}{M\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=23ba4ddf2da0fa7e75eba2af8bebb1e1}{Tessum}{T\bibinitperiod}{Christoper\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=859030663cdcae6e7cacaa7a5b40eb79}{Gouw}{G\bibinitperiod}{Joost}{J\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
-        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{Marshall}{M\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=6f5264d2f4074c797f2e080bc983e77f}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F.}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=5537408924e7edf84ebfda86c586d4cb}{Griffis}{G\bibinitperiod}{Tim\bibnamedelima J.}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{6b1cac11000644ce9f33114b60cac0aa}
-      \strng{fullhash}{6b1cac11000644ce9f33114b60cac0aa}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{{Emissions of C6-C8 aromatic compounds in the United States: Constraints from tall tower and aircraft measurements}}
-      \field{title}{{Emissions of C6-C8 aromatic compounds in the United States: Constraints from tall tower and aircraft measurements}}
-      \field{year}{2014}
-    \endentry
-    \entry{Tessum2013}{article}{}
+    \entry{Tessum2015b}{article}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
         {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
         {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{{Spatially resolved life cycle assessment for production- and consumption-based accounting of climate forcing agent emissions from gasoline, ethanol, and electric motor vehicles in the United States}}
-      \field{title}{{Spatially resolved life cycle assessment for production- and consumption-based accounting of climate forcing agent emissions from gasoline, ethanol, and electric motor vehicles in the United States}}
-      \field{year}{2014}
+      \field{labeltitle}{{InMAP: A New Model for Air Pollution Interventions}}
+      \field{journaltitle}{Submitted}
+      \field{title}{{InMAP: A New Model for Air Pollution Interventions}}
+      \field{year}{2015}
     \endentry
   \endsortlist
 \endrefsection
@@ -256,7 +279,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Assessing the sustainability of biofuels: Metrics, models, and tools for evaluating the impact of biofuels}}
-      \field{booktitle}{Expand. Biofuel Prod. Sustain. Transit. to Adv. Biofuels Summ. a Work.}
+      \field{booktitle}{Expanding Biofuel Production: Sustainability and the Transition to Advanced Biofuels: Summary of a Workshop}
       \field{isbn}{9780309147149}
       \field{title}{{Assessing the sustainability of biofuels: Metrics, models, and tools for evaluating the impact of biofuels}}
       \field{year}{2010}
@@ -273,6 +296,54 @@
 
 \refsection{4}
   \sortlist{none}{none}
+    \entry{TessumMEHA2015}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Alexandria, MN}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Air Pollution, Health, and Environmental Justice Implications of Shifting Transportation Fuels in the United States}}
+      \field{booktitle}{Minnesota Environmental Health Association Annual Conference}
+      \field{month}{05}
+      \field{title}{{Air Pollution, Health, and Environmental Justice Implications of Shifting Transportation Fuels in the United States}}
+      \field{year}{2015}
+    \endentry
+    \entry{TessumHR2015}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Renewable Fuel Standard: Impacts on American Consumers}}
+      \field{booktitle}{U.S. House of Representatives}
+      \field{month}{02}
+      \field{title}{{Renewable Fuel Standard: Impacts on American Consumers}}
+      \field{year}{2015}
+    \endentry
     \entry{Tessum2014LBNL}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -290,7 +361,7 @@
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
       \field{abstract}{March 25, 2014}
-      \field{booktitle}{Lawrence Berkeley Natl. Lab. Environ. Energy Technol. Div. Semin. Ser.}
+      \field{booktitle}{Lawrence Berkeley National Laboratory Environmental Energy Technologies Division Seminar Series}
       \field{month}{03}
       \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
       \field{year}{2014}
@@ -314,7 +385,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
-      \field{booktitle}{2014 Nat. Cap. Annu. Meet. Train.}
+      \field{booktitle}{2014 Natural Capital Annual Meeting and Training}
       \field{month}{03}
       \field{title}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
       \field{year}{2014}
@@ -338,7 +409,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
-      \field{booktitle}{Air Waste Manag. Assoc. 106th Annu. Conf. Exhib.}
+      \field{booktitle}{Air and Waste Management Association 106th Annual Conference and Exhibition}
       \field{month}{07}
       \field{title}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
       \field{year}{2013}
@@ -362,7 +433,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{booktitle}{Peking Univ.}
+      \field{booktitle}{Peking University}
       \field{month}{03}
       \field{title}{{Public health implications of alternative transportation fuels in the United States}}
       \field{year}{2013}
@@ -386,7 +457,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{booktitle}{China Cent. Dis. Control Prev.}
+      \field{booktitle}{China Center for Disease Control and Prevention}
       \field{month}{03}
       \field{title}{{Public health implications of alternative transportation fuels in the United States}}
       \field{year}{2013}
@@ -412,7 +483,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Peking Univ.}
+      \field{booktitle}{Peking University}
       \field{month}{08}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -434,7 +505,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
-      \field{booktitle}{Minnesota Acad. Sci. Annu. Meet.}
+      \field{booktitle}{Minnesota Academy of Science Annual Meeting}
       \field{month}{04}
       \field{title}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
       \field{year}{2011}
@@ -444,6 +515,30 @@
 
 \refsection{5}
   \sortlist{none}{none}
+    \entry{TessumMSI2015}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Environmental Justice and Equality Aspects of Conventional and Alternative Light-Duty Transportation in the United States}}
+      \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
+      \field{month}{04}
+      \field{title}{{Environmental Justice and Equality Aspects of Conventional and Alternative Light-Duty Transportation in the United States}}
+      \field{year}{2015}
+    \endentry
     \entry{Tessum2014AAAR}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -463,7 +558,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
-      \field{booktitle}{Am. Assoc. Aerosol Res. Annu. Conf.}
+      \field{booktitle}{American Association for Aerosol Research Annual Conference}
       \field{month}{10}
       \field{title}{{A reduced-complexity, variable grid resolution model for PM2.5 transport and transformation}}
       \field{year}{2014}
@@ -487,7 +582,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Environmental justice and equality aspects of conventional and alternative light-duty transportation in the United States}}
-      \field{booktitle}{Int. Soc. Environ. Epidemiol. Annu. Conf.}
+      \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
       \field{month}{08}
       \field{title}{{Environmental justice and equality aspects of conventional and alternative light-duty transportation in the United States}}
       \field{year}{2014}
@@ -511,7 +606,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air pollution, health, and environmental justice implications of shifting transportation fuels}}
-      \field{booktitle}{Annu. Conf. Int. Soc. Environ. Epidemiol. Int. Soc. Expo. Sci. Int. Soc. Indoor Air Qual.}
+      \field{booktitle}{Annual Conference of the International Society for Environmental Epidemiology, International Society for Exposure Science and International Society for Indoor Air Quality}
       \field{month}{08}
       \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels}}
       \field{year}{2013}
@@ -535,7 +630,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Public health implications of alternative transportation fuels: Synergies between climate and air quality policies}}
-      \field{booktitle}{Minnesota Supercomput. Inst. Res. Exhib.}
+      \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
       \field{month}{04}
       \field{title}{{Public health implications of alternative transportation fuels: Synergies between climate and air quality policies}}
       \field{year}{2013}
@@ -556,7 +651,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A spatially and temporally explicit life cycle inventory of air pollutants from transportation fuels in the United States}}
-      \field{booktitle}{Soc. Environ. Toxicol. Chem. North Am. Annu. Conf.}
+      \field{booktitle}{Society for Environmental Toxicology and Chemistry North America Annual Conference}
       \field{month}{11}
       \field{title}{{A spatially and temporally explicit life cycle inventory of air pollutants from transportation fuels in the United States}}
       \field{year}{2012}
@@ -582,7 +677,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Initiat. Renew. Energy Environ. E3 Conf.}
+      \field{booktitle}{Initiative for Renewable Energy and the Environment E3 Conference}
       \field{month}{11}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -608,7 +703,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Inst. Environ. Student Sustain. Symp.}
+      \field{booktitle}{Institute on the Environment Student Sustainability Symposium}
       \field{month}{10}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -634,7 +729,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Am. Cent. Life Cycle Anal. Annu. Conf.}
+      \field{booktitle}{American Center for Life Cycle Analysis Annual Conference}
       \field{month}{10}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -661,7 +756,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{booktitle}{Int. Soc. Environ. Epidemiol. Annu. Conf.}
+      \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
       \field{month}{08}
       \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
       \field{year}{2011}
@@ -687,7 +782,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
-      \field{booktitle}{Minnesota Supercomput. Inst. Res. Exhib.}
+      \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
       \field{month}{04}
       \field{title}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
       \field{year}{2011}
@@ -713,7 +808,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
-      \field{booktitle}{Initiat. Renew. Energy Environ. E3 Conf.}
+      \field{booktitle}{Initiative for Renewable Energy and the Environment E3 Conference}
       \field{month}{10}
       \field{title}{{Air quality implications of alternative fuels: A spatially and temporally explicit life cycle modeling approach}}
       \field{year}{2010}
@@ -737,7 +832,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Spatially and temporally explicit life-cycle analysis of biofuels}}
-      \field{booktitle}{First Annu. Fulbright US-Brazil Biofuels Short Course}
+      \field{booktitle}{First Annual Fulbright US-Brazil Biofuels Short Course}
       \field{month}{08}
       \field{title}{{Spatially and temporally explicit life-cycle analysis of biofuels}}
       \field{year}{2009}
