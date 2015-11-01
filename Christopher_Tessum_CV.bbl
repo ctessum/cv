@@ -19,6 +19,40 @@
 
 \refsection{1}
   \sortlist{none}{none}
+    \entry{Tessum2015b}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{InMAP: a new model for air pollution interventions}}
+      \field{abstract}{Mechanistic air pollution models are essential tools in air quality management. Widespread use of such models is hindered, however, by the extensive expertise or computational resources needed to run most models. Here, we present InMAP (Intervention Model for Air Pollution), which offers an alternative to comprehensive air quality models for estimating the air pollution health impacts of emission reductions and other potential interventions. InMAP estimates annual-average changes in primary and secondary fine particle (PM2.5) concentrations – the air pollution outcome generally causing the largest monetized health damages – attributable to annual changes in precursor emissions. InMAP leverages pre-processed physical and chemical information from the output of a state-of-the-science chemical transport model (WRF-Chem) within an Eulerian modeling framework, to perform simulations that are several orders of magnitude less computationally intensive than comprehensive model simulations. InMAP uses a variable resolution grid that focuses on human exposures by employing higher spatial resolution in urban areas and lower spatial resolution in rural and remote locations and in the upper atmosphere; and by directly calculating steady-state, annual average concentrations. In comparisons run here, InMAP recreates WRF-Chem predictions of changes in total PM2.5 concentrations with population-weighted mean fractional error (MFE) and bias (MFB) R2 \~{} 0.99. Among individual PM2.5 species, the best predictive performance is for primary PM2.5 (MFE: 16 \%; MFB: 13 \%) and the worst predictive performance is for particulate nitrate (MFE: 119 \%; MFB: 106 \%). Potential uses of InMAP include studying exposure, health, and environmental justice impacts of potential shifts in emissions for annual-average PM2.5. Features planned for future model releases include a larger spatial domain, more temporal information, and the ability to predict ground-level ozone (O3) concentrations. The InMAP model source code and input data are freely available online.}
+      \field{issn}{1991-962X}
+      \field{journaltitle}{Geosci. Model Dev. Discuss.}
+      \field{number}{10}
+      \field{title}{{InMAP: a new model for air pollution interventions}}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{9281\bibrangedash 9321}
+      \verb{doi}
+      \verb 10.5194/gmdd-8-9281-2015
+      \endverb
+      \verb{file}
+      \verb :home/chris/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tessum, Hill, Marshall - 2015 - InMAP a new model for air pollution interventions.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.geosci-model-dev-discuss.net/8/9281/2015/
+      \endverb
+    \endentry
     \entry{Tessum2015a}{article}{}
       \name{labelname}{3}{}{%
         {{hash=bcb0129b0c2519bae568f1afab36e8ce}{Tessum}{T\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -203,31 +237,6 @@
 
 \refsection{2}
   \sortlist{none}{none}
-    \entry{Tessum2015b}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{{InMAP: A New Model for Air Pollution Interventions}}
-      \field{journaltitle}{Submitted}
-      \field{title}{{InMAP: A New Model for Air Pollution Interventions}}
-      \field{year}{2015}
-    \endentry
-  \endsortlist
-\endrefsection
-
-\refsection{3}
-  \sortlist{none}{none}
     \entry{Tessum2010a}{report}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -294,7 +303,7 @@
   \endsortlist
 \endrefsection
 
-\refsection{4}
+\refsection{3}
   \sortlist{none}{none}
     \entry{TessumMEHA2015}{inproceedings}{}
       \name{labelname}{3}{}{%
@@ -513,8 +522,34 @@
   \endsortlist
 \endrefsection
 
-\refsection{5}
+\refsection{4}
   \sortlist{none}{none}
+    \entry{TessumAAAR2015}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5262f263608d27ce23b7353d8a8654}{Mullins}{M\bibinitperiod}{Kimberley}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5262f263608d27ce23b7353d8a8654}{Mullins}{M\bibinitperiod}{Kimberley}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN, USA}%
+      }
+      \strng{namehash}{6090c30f5adee332cb84c075a3dc9e0f}
+      \strng{fullhash}{6090c30f5adee332cb84c075a3dc9e0f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Economic input-output life cycle assessment of PM2.5 health impacts and environmental injustice}}
+      \field{booktitle}{American Association for Aerosol Research Annual Conference}
+      \field{month}{10}
+      \field{title}{{Economic input-output life cycle assessment of PM2.5 health impacts and environmental injustice}}
+      \field{year}{2015}
+    \endentry
     \entry{TessumMSI2015}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
