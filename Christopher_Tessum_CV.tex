@@ -15,9 +15,9 @@
 \setsansfont{Helvetica}
 \setmonofont[Scale=0.9]{Inconsolata}
 
-\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/cv.bib}
-\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/Posters.bib}
-\addbibresource{/media/chris/data1/Documents/Graduate_School/Research/bibtex/Presentations.bib}
+\addbibresource{/home/chris/Documents/Graduate_School/Research/bibtex/cv.bib}
+\addbibresource{/home/chris/Documents/Graduate_School/Research/bibtex/Posters.bib}
+\addbibresource{/home/chris/Documents/Graduate_School/Research/bibtex/Presentations.bib}
 
 
 \oddsidemargin -.5in
@@ -40,20 +40,20 @@
   \begin{list}{\ding{113}}{%
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.17in}}}{\end{list}}
 \newenvironment{list2}{
   \begin{list}{$\bullet$}{%
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
 % Make numbers go in reverse
 \makeatletter
 % Define an entry counter for each refsection
 \AtBeginEnvironment{refsection}{%
-  \csnumgdef{blx@entrycount@\the\c@refsection}{0}} 
+  \csnumgdef{blx@entrycount@\the\c@refsection}{0}}
 
 % Set counter to the total number of entries in the refsection
 \AtDataInput{%
@@ -62,7 +62,7 @@
 
 % Print the labelnumber as the total number of entries in the
 % current refsection, minus the actual labelnumber, plus one
-\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
 \newrobustcmd{\mkbibdesc}[1]{%
   \number\numexpr\csuse{blx@entrycount@\the\c@refsection}+1-#1\relax}
 
@@ -77,12 +77,12 @@
 \vspace{.05in}
 \begin{tabular}{@{}p{1.6in}p{1.7in}p{2.5in}}
 270 Wilcox Hall &
-%{\it Phone:} +1 (612) 568-2238 & 
-{\it Phone:} +1 (612) 986-3941 & 
-{\it Website:} \url{staff.washington.edu/ctessum} \\            
+%{\it Phone:} +1 (612) 568-2238 &
+{\it Phone:} +1 (612) 986-3941 &
+{\it Website:} \url{staff.washington.edu/ctessum} \\
 University of Washington, Seattle, WA 98198 &
-%{\it E-mail:}  umn.edu$\leftrightarrow$tess0050 & \\  
-{\it E-mail:}  ctessum@uw.edu & \\     		    
+%{\it E-mail:}  umn.edu$\leftrightarrow$tess0050 & \\
+{\it E-mail:}  ctessum@uw.edu & \\
 \end{tabular}
 
 \section{\sc Research\\Area}
@@ -151,6 +151,7 @@ University of Washington, Seattle, WA 98198 &
 \printbibliography[heading=pubs]
 \end{refsection}
 
+\vspace*{-.1in}
 
 %\defbibheading{pubs}[\sc Articles Submitted for Peer Review]{\section{#1}}
 %\begin{refsection}
@@ -180,7 +181,7 @@ TessumPeking2011,TessumMAS2011}
 
 \defbibheading{post}[\sc Conference Presentations]{\section{#1}}
 \begin{refsection}
-\nocite{TessumAAAR2015,TessumMSI2015,Tessum2014AAAR,Tessum2014ISEE,Tessum2013ISEE,Tessum2013MSI,TessumSETAC2012,
+\nocite{Marshall2016HEI,TessumAAAR2015,TessumMSI2015,Tessum2014AAAR,Tessum2014ISEE,Tessum2013ISEE,Tessum2013MSI,TessumSETAC2012,
 TessumE32011,TessumIonE2011,TessumLCA2011,TessumISEE2011,TessumMSI2011,TessumE32010,
 TessumBrazil2009}
 \printbibliography[heading=post]
@@ -193,7 +194,7 @@ TessumBrazil2009}
 
 
 %Remove space if enough text
-%\vspace*{-.1in}
+\vspace*{-.1in}
 
 
 
@@ -219,26 +220,25 @@ Instructor: Dr. Julian Marshall\\
 \end{list2}
 
 %Remove space if enough text
-%\vspace*{-.1in}
+\vspace*{-.1in}
 
 \section{\sc Professional Experience}
 
-{\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
-\vspace{-.3cm}
-{\em Owner; independent contractor for EcoEngineers LLC} \hfill 2012 -- 2013\\
-\begin{list2}
-\item Carried out life cycle assessment for California Low Carbon Fuel Standard permitting
-\end{list2}
-
+{\bf Independent Contracting}, Minneapolis, Minnesota USA \hfill 2008 -- 2015\\
 \vspace*{-.1in}
-
-{\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
-\vspace{-.3cm}
-{\em Owner; independent contractor for Smithfield Packing Co.} \hfill May -- September 2008\\
 \begin{list2}
-\item Specified and justified the purchase of energy efficient equipment
-\item Worked with plant staff and equipment manufacturers to determine the best energy efficient  products for Smithfield
-\item Created air flow and heat transfer model of refrigerated areas
+\item Performed air quality modeling for an administrative law hearing
+\item Carried out life cycle assessment for California Low Carbon Fuel Standard permitting
+%\end{list2}
+
+
+%{\bf CT Consulting LLC}, Minneapolis, Minnesota USA\\
+%\vspace{-.3cm}
+%{\em Owner; independent contractor for Smithfield Packing Co.} \hfill May -- September 2008\\
+%\begin{list2}
+%\item Specified and justified the purchase of energy efficient equipment
+%\item Worked with plant staff and equipment manufacturers to determine the best energy efficient  products for Smithfield
+\item Created an air flow and heat transfer model of a meat packing plant
 \end{list2}
 
 \vspace*{-.1in}
@@ -248,8 +248,8 @@ Instructor: Dr. Julian Marshall\\
 {\em Engineer} \hfill June 2007 -- April 2008\\
 \begin{list2}
 \item Performed energy efficiency audits at industrial facilities
-\item Worked with plant staff to implement energy efficiency improvements
-\item Calculated and measured predicted and real energy savings due to the installation of energy efficient equipment
+%\item Worked with plant staff to implement energy efficiency improvements
+%\item Calculated and measured predicted and real energy savings due to the installation of energy efficient equipment
 \end{list2}
 
 \vspace*{-.1in}
@@ -272,7 +272,7 @@ Instructor: Dr. Julian Marshall\\
 \item Wrote LabVIEW programs for sensor control
 \end{list2}
 
-\section{\sc Honors and\\Awards} 
+\section{\sc Honors and\\Awards}
 \begin{list2}
 \item Third place student poster award: American Center for
 Life Cycle Analysis Annual Conference \hfill 2011
@@ -287,7 +287,3 @@ Life Cycle Analysis Annual Conference \hfill 2011
 
 \end{resume}
 \end{document}
-
-
-
-

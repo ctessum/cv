@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.5 $
+% $ biblatex bbl format version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,12 +18,24 @@
 
 
 \refsection{1}
-  \sortlist{none}{none}
+  \sortlist[entry]{none/global}
     \entry{Touchaei2016}{article}{}
       \name{author}{3}{}{%
-        {{hash=fcc6890dce7a907cedcd596740b7db84}{Touchaei}{T\bibinitperiod}{Ali\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-        {{hash=6e4c1c4a6cfb7a90fc255fca03e1239b}{Akbari}{A\bibinitperiod}{Hashem}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc6890dce7a907cedcd596740b7db84}{%
+           family={Touchaei},
+           family_i={T\bibinitperiod},
+           given={Ali\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6e4c1c4a6cfb7a90fc255fca03e1239b}{%
+           family={Akbari},
+           family_i={A\bibinitperiod},
+           given={Hashem},
+           given_i={H\bibinitperiod}}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier Ltd}%
@@ -53,9 +65,21 @@
     \endentry
     \entry{Tessum2015b}{article}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
@@ -84,9 +108,21 @@
     \endentry
     \entry{Tessum2015a}{article}{}
       \name{author}{3}{}{%
-        {{hash=bcb0129b0c2519bae568f1afab36e8ce}{Tessum}{T\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=d330f293dad5c7948fb7f56c3c8f92b4}{Hill}{H\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4743545ffeb430dc2d13df4f3f36609a}{Marshall}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=bcb0129b0c2519bae568f1afab36e8ce}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d330f293dad5c7948fb7f56c3c8f92b4}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4743545ffeb430dc2d13df4f3f36609a}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{304432aa7fef63a4df0407464a53abd8}
       \strng{fullhash}{304432aa7fef63a4df0407464a53abd8}
@@ -114,9 +150,21 @@
     \endentry
     \entry{Tessum2014a}{article}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
@@ -143,20 +191,76 @@
     \endentry
     \entry{Hu2014a}{article}{}
       \name{author}{14}{}{%
-        {{hash=555318cce69a903918cac9982437bb3a}{Hu}{H\bibinitperiod}{Lu}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=a46d4290388569aa5aeaea4fd1e17789}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=d5eab24699b5787730c157a43131d5da}{Baasandorj}{B\bibinitperiod}{Munkhbayar}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=3be253b170e808f820db7412f350fe3f}{Grif}{G\bibinitperiod}{Timothy\bibnamedelima J}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=55579563ed315853c5a40a39b8e49bba}{Travis}{T\bibinitperiod}{Katherine\bibnamedelima R}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=086725ed9320922b667f174d585d74d5}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=51ba619ebc6fbbb089bf3d3d4cff31cb}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=96b779653311268b9148b4f2d9df64ab}{Reinhart}{R\bibinitperiod}{Wesley\bibnamedelima F}{W\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=3f5a447e35e01874501d56d27dc3f870}{Mikoviny}{M\bibinitperiod}{Tomas}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{Müller}{M\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=54969f29f1c108a2a43917797b0c973f}{Wisthaler}{W\bibinitperiod}{Armin}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=026d4821ba26c7f9e9674996259de9f3}{Graus}{G\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=97e0a4fe940e619545fb5462f0ca697a}{Warneke}{W\bibinitperiod}{Carsten}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=74d5633072d64838651974cfc6891ffe}{Gouw}{G\bibinitperiod}{Joost\bibnamedelima De}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=555318cce69a903918cac9982437bb3a}{%
+           family={Hu},
+           family_i={H\bibinitperiod},
+           given={Lu},
+           given_i={L\bibinitperiod}}}%
+        {{hash=a46d4290388569aa5aeaea4fd1e17789}{%
+           family={Millet},
+           family_i={M\bibinitperiod},
+           given={Dylan\bibnamedelima B},
+           given_i={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d5eab24699b5787730c157a43131d5da}{%
+           family={Baasandorj},
+           family_i={B\bibinitperiod},
+           given={Munkhbayar},
+           given_i={M\bibinitperiod}}}%
+        {{hash=3be253b170e808f820db7412f350fe3f}{%
+           family={Grif},
+           family_i={G\bibinitperiod},
+           given={Timothy\bibnamedelima J},
+           given_i={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=55579563ed315853c5a40a39b8e49bba}{%
+           family={Travis},
+           family_i={T\bibinitperiod},
+           given={Katherine\bibnamedelima R},
+           given_i={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=086725ed9320922b667f174d585d74d5}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=51ba619ebc6fbbb089bf3d3d4cff31cb}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=96b779653311268b9148b4f2d9df64ab}{%
+           family={Reinhart},
+           family_i={R\bibinitperiod},
+           given={Wesley\bibnamedelima F},
+           given_i={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=3f5a447e35e01874501d56d27dc3f870}{%
+           family={Mikoviny},
+           family_i={M\bibinitperiod},
+           given={Tomas},
+           given_i={T\bibinitperiod}}}%
+        {{hash=a72c3487103e77ffaf5aed3be8bcf625}{%
+           family={Müller},
+           family_i={M\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=54969f29f1c108a2a43917797b0c973f}{%
+           family={Wisthaler},
+           family_i={W\bibinitperiod},
+           given={Armin},
+           given_i={A\bibinitperiod}}}%
+        {{hash=026d4821ba26c7f9e9674996259de9f3}{%
+           family={Graus},
+           family_i={G\bibinitperiod},
+           given={Martin},
+           given_i={M\bibinitperiod}}}%
+        {{hash=97e0a4fe940e619545fb5462f0ca697a}{%
+           family={Warneke},
+           family_i={W\bibinitperiod},
+           given={Carsten},
+           given_i={C\bibinitperiod}}}%
+        {{hash=74d5633072d64838651974cfc6891ffe}{%
+           family={Gouw},
+           family_i={G\bibinitperiod},
+           given={Joost\bibnamedelima De},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{03d3be2eed87203df95216014fb01a5e}
       \strng{fullhash}{03d3be2eed87203df95216014fb01a5e}
@@ -178,9 +282,21 @@
     \endentry
     \entry{Tessum2012}{article}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
       \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
@@ -204,13 +320,41 @@
     \endentry
     \entry{Millet2012}{article}{}
       \name{author}{7}{}{%
-        {{hash=504fcd047e7b32b5102beb929f8ce5fe}{Millet}{M\bibinitperiod}{Dylan\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=bc6e8296830d762efdc6ad11c99c34af}{Apel}{A\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=c02e405a37db1bf1241f6ee084c8a59d}{Henze}{H\bibinitperiod}{Daven\bibnamedelima K.}{D\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=9a07922d0ea2d52822e82b57e95a6799}{Hill}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=f75cd6899b57c51bfde91bce10fc75d2}{Singh}{S\bibinitperiod}{Hanwant\bibnamedelima B.}{H\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=504fcd047e7b32b5102beb929f8ce5fe}{%
+           family={Millet},
+           family_i={M\bibinitperiod},
+           given={Dylan\bibnamedelima B.},
+           given_i={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=bc6e8296830d762efdc6ad11c99c34af}{%
+           family={Apel},
+           family_i={A\bibinitperiod},
+           given={Eric},
+           given_i={E\bibinitperiod}}}%
+        {{hash=c02e405a37db1bf1241f6ee084c8a59d}{%
+           family={Henze},
+           family_i={H\bibinitperiod},
+           given={Daven\bibnamedelima K.},
+           given_i={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9a07922d0ea2d52822e82b57e95a6799}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason},
+           given_i={J\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f75cd6899b57c51bfde91bce10fc75d2}{%
+           family={Singh},
+           family_i={S\bibinitperiod},
+           given={Hanwant\bibnamedelima B.},
+           given_i={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
       \strng{namehash}{21da57a65ae5c5a7de830f9c29b891f7}
       \strng{fullhash}{21da57a65ae5c5a7de830f9c29b891f7}
@@ -238,12 +382,24 @@
 \endrefsection
 
 \refsection{2}
-  \sortlist{none}{none}
+  \sortlist[entry]{none/global}
     \entry{Tessum2010a}{report}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {Center for Transportation Studies, University of Minnesota}%
@@ -263,14 +419,38 @@
     \endentry
     \entry{Tessum2010}{incollection}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=8c731ad64c3beab6e5d3342441b095d6}{Boies}{B\bibinitperiod}{Adam\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8c731ad64c3beab6e5d3342441b095d6}{%
+           family={Boies},
+           family_i={B\bibinitperiod},
+           given={Adam\bibnamedelima M.},
+           given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \name{editor}{2}{}{%
-        {{hash=d68262520120a65cd0b20e951ed6672e}{Koshel}{K\bibinitperiod}{Patricia}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=2403d0563563d542193b88c3dc0b7f68}{McAllister}{M\bibinitperiod}{Kathleen}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d68262520120a65cd0b20e951ed6672e}{%
+           family={Koshel},
+           family_i={K\bibinitperiod},
+           given={Patricia},
+           given_i={P\bibinitperiod}}}%
+        {{hash=2403d0563563d542193b88c3dc0b7f68}{%
+           family={McAllister},
+           family_i={M\bibinitperiod},
+           given={Kathleen},
+           given_i={K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {National Research Council}%
@@ -298,12 +478,24 @@
 \endrefsection
 
 \refsection{3}
-  \sortlist{none}{none}
+  \sortlist[entry]{none/global}
     \entry{TessumMEHA2015}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Alexandria, MN}%
@@ -321,9 +513,21 @@
     \endentry
     \entry{TessumHR2015}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Washington, D.C.}%
@@ -341,9 +545,19 @@
     \endentry
     \entry{Tessum2014LBNL}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{{Julian\bibnamedelimb D.\bibnamedelimi Marshall}}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{%
+           family={{Julian\bibnamedelimb D.\bibnamedelimi Marshall}},
+           family_i={J\bibinitperiod}}}%
       }
       \strng{namehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
       \strng{fullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
@@ -359,9 +573,21 @@
     \endentry
     \entry{Tessum2014NatCap}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=492aa1498b714d685b539d8ff89514f9}{Tessum}{T\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=9a07922d0ea2d52822e82b57e95a6799}{Hill}{H\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{Marshall}{M\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=492aa1498b714d685b539d8ff89514f9}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher},
+           given_i={C\bibinitperiod}}}%
+        {{hash=9a07922d0ea2d52822e82b57e95a6799}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian},
+           given_i={J\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Stanford, CA}%
@@ -379,9 +605,21 @@
     \endentry
     \entry{Tessum2013AWMA}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Chicago, IL, USA}%
@@ -399,9 +637,21 @@
     \endentry
     \entry{TessumBeiDa2013}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Beijing, China}%
@@ -419,9 +669,21 @@
     \endentry
     \entry{TessumChinaCDC2013}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Beijing, China}%
@@ -439,10 +701,26 @@
     \endentry
     \entry{TessumPeking2011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Beijing, China}%
@@ -460,8 +738,16 @@
     \endentry
     \entry{TessumMAS2011}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN, USA}%
@@ -481,13 +767,83 @@
 \endrefsection
 
 \refsection{4}
-  \sortlist{none}{none}
+  \sortlist[entry]{none/global}
+    \entry{Marshall2016HEI}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=b0470bf6c4a793b70f184728e549c1e5}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={JD},
+           given_i={J\bibinitperiod}}}%
+        {{hash=af330b437d6ff4ff5f0f1250b9f9188b}{%
+           family={Clark},
+           family_i={C\bibinitperiod},
+           given={LP},
+           given_i={L\bibinitperiod}}}%
+        {{hash=dd2c9358e48baf5b820f2fe34502bc6a}{%
+           family={Bechle},
+           family_i={B\bibinitperiod},
+           given={MJ},
+           given_i={M\bibinitperiod}}}%
+        {{hash=ba4f1b01de7074c1ae9f8ba12b56d265}{%
+           family={Nguyen},
+           family_i={N\bibinitperiod},
+           given={NP},
+           given_i={N\bibinitperiod}}}%
+        {{hash=4e6d701807f77653cbd1fb576839ea3f}{%
+           family={Swor},
+           family_i={S\bibinitperiod},
+           given={KR},
+           given_i={K\bibinitperiod}}}%
+        {{hash=8f076d2543f8785eeeb81397c0c6b342}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={CW},
+           given_i={C\bibinitperiod}}}%
+        {{hash=f26eb743510fd4b7ffc325b74f692edb}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={JD},
+           given_i={J\bibinitperiod}}}%
+        {{hash=4d3e27259650fe6153de01a618a6fd5d}{%
+           family={Millet.},
+           family_i={M\bibinitperiod},
+           given={DB},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e0557b9c6dfb40223d416e7a881ea5b}
+      \strng{fullhash}{2e0557b9c6dfb40223d416e7a881ea5b}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Health Effects Institute Annual Conference, Denver, Colorado}
+      \field{month}{05}
+      \field{title}{{Environmental justice aspects of transportation-related air pollution in the U.S.: evidence from national-scale longitudinal analyses, case studies, and life cycle assessment}}
+      \field{year}{2016}
+    \endentry
     \entry{TessumAAAR2015}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=ea5262f263608d27ce23b7353d8a8654}{Mullins}{M\bibinitperiod}{Kimberley}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ea5262f263608d27ce23b7353d8a8654}{%
+           family={Mullins},
+           family_i={M\bibinitperiod},
+           given={Kimberley},
+           given_i={K\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN, USA}%
@@ -505,9 +861,21 @@
     \endentry
     \entry{TessumMSI2015}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN}%
@@ -525,9 +893,21 @@
     \endentry
     \entry{Tessum2014AAAR}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Orlando, Florida, USA}%
@@ -545,9 +925,21 @@
     \endentry
     \entry{Tessum2014ISEE}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Seattle, WA, USA}%
@@ -565,9 +957,19 @@
     \endentry
     \entry{Tessum2013ISEE}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{{Julian\bibnamedelimb D.\bibnamedelimi Marshall}}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{%
+           family={{Julian\bibnamedelimb D.\bibnamedelimi Marshall}},
+           family_i={J\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Basel, Switzerland}%
@@ -585,9 +987,21 @@
     \endentry
     \entry{Tessum2013MSI}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN, USA}%
@@ -605,9 +1019,21 @@
     \endentry
     \entry{TessumSETAC2012}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
@@ -622,10 +1048,26 @@
     \endentry
     \entry{TessumE32011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN, USA}%
@@ -643,10 +1085,26 @@
     \endentry
     \entry{TessumIonE2011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {St. Paul, MN, USA}%
@@ -664,10 +1122,26 @@
     \endentry
     \entry{TessumLCA2011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Chicago, IL, USA}%
@@ -687,10 +1161,26 @@
     \endentry
     \entry{TessumISEE2011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Barcelona, Spain}%
@@ -708,10 +1198,26 @@
     \endentry
     \entry{TessumMSI2011}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Minneapolis, MN, USA}%
@@ -729,10 +1235,26 @@
     \endentry
     \entry{TessumE32010}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{Wagstrom}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           family_i={W\bibinitperiod},
+           given={Kristina},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {St. Paul, MN, USA}%
@@ -750,9 +1272,21 @@
     \endentry
     \entry{TessumBrazil2009}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{Tessum}{T\bibinitperiod}{Christopher\bibnamedelima W.}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{Hill}{H\bibinitperiod}{Jason\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{Marshall}{M\bibinitperiod}{Julian\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           family_i={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           family_i={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {São Paulo, Brazil}%
