@@ -91,19 +91,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-9326}
-      \field{journaltitle}{Environmental Research Letters}
+      \field{journaltitle}{Environ. Res. Lett.}
       \field{month}{9}
       \field{number}{In Press}
       \field{title}{{Ancillary health effects of climate mitigation scenarios as drivers of policy uptake: a review of air quality, transportation and diet co-benefits modeling studies}}
       \field{year}{2017}
-      \verb{doi}
-      \verb 10.1088/1748-9326/aa8f7b
-      \endverb
       \verb{file}
       \verb :home/chris/Documents/Mendeley Desktop/Chang et al/Environ. Res. Lett/Chang et al. - 2017 - Ancillary health effects of climate mitigation scenarios as drivers of policy uptake a review of air quality, tran.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://iopscience.iop.org/article/10.1088/1748-9326/aa8f7b
       \endverb
     \endentry
     \entry{Tessum2017a}{article}{}
@@ -232,7 +226,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{13522310}
-      \field{journaltitle}{Atmospheric Environment}
+      \field{journaltitle}{Atmos. Environ.}
       \field{title}{{Effect of increasing urban albedo on meteorology and air quality of Montreal (Canada) – Episodic simulation of heat wave in 2005}}
       \field{volume}{132}
       \field{year}{2016}
@@ -242,7 +236,7 @@
       \verb 10.1016/j.atmosenv.2016.02.033
       \endverb
       \verb{file}
-      \verb :home/chris/Documents/Mendeley Desktop/Touchaei, Akbari, Tessum/Atmospheric Environment/Touchaei, Akbari, Tessum - 2016 - Effect of increasing urban albedo on meteorology and air quality of Montreal (Canada) – Episodic sim.pdf:pdf
+      \verb :home/chris/Documents/Mendeley Desktop/Touchaei, Akbari, Tessum/Atmos. Environ/Touchaei, Akbari, Tessum - 2016 - Effect of increasing urban albedo on meteorology and air quality of Montreal (Canada) – Episodic sim.pdf:pdf
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S1352231016301467
