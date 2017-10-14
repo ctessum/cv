@@ -631,6 +631,211 @@
 
 \refsection{3}
   \sortlist[entry]{none/global/}
+    \entry{TessumHR2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{authornamehash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{authorfullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{U.S. House of Representatives}
+      \field{month}{2}
+      \field{title}{{Renewable Fuel Standard: Impacts on American Consumers}}
+      \field{year}{2015}
+    \endentry
+    \entry{Tessum2014LBNL}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{%
+           family={{Julian D. Marshall}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
+      \strng{fullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
+      \strng{authornamehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
+      \strng{authorfullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{March 25, 2014}
+      \field{booktitle}{Lawrence Berkeley National Laboratory Environmental Energy Technologies Division Seminar Series}
+      \field{month}{3}
+      \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
+      \field{year}{2014}
+    \endentry
+    \entry{TessumBeiDa2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Beijing, China}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Peking University}
+      \field{month}{3}
+      \field{title}{{Public health implications of alternative transportation fuels in the United States}}
+      \field{year}{2013}
+    \endentry
+    \entry{TessumChinaCDC2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Beijing, China}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{China Center for Disease Control and Prevention}
+      \field{month}{3}
+      \field{title}{{Public health implications of alternative transportation fuels in the United States}}
+      \field{year}{2013}
+    \endentry
+    \entry{TessumPeking2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=43ddd0f4437061147ab5338562233d45}{%
+           family={Wagstrom},
+           familyi={W\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Beijing, China}%
+      }
+      \strng{namehash}{93467be12bf2c45c9e5501ec5ffebf66}
+      \strng{fullhash}{93467be12bf2c45c9e5501ec5ffebf66}
+      \strng{authornamehash}{93467be12bf2c45c9e5501ec5ffebf66}
+      \strng{authorfullhash}{93467be12bf2c45c9e5501ec5ffebf66}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Peking University}
+      \field{month}{8}
+      \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
+      \field{year}{2011}
+    \endentry
+    \entry{TessumMAS2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN, USA}%
+      }
+      \strng{namehash}{1cefcc97a63b7d2eefbd88f349cde737}
+      \strng{fullhash}{1cefcc97a63b7d2eefbd88f349cde737}
+      \strng{authornamehash}{1cefcc97a63b7d2eefbd88f349cde737}
+      \strng{authorfullhash}{1cefcc97a63b7d2eefbd88f349cde737}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Minnesota Academy of Science Annual Meeting}
+      \field{month}{4}
+      \field{title}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
+      \field{year}{2011}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{4}
+  \sortlist[entry]{none/global/}
     \entry{Tessum2017EIC}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=492aa1498b714d685b539d8ff89514f9}{%
@@ -694,7 +899,7 @@
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Coordinating Research Council (CRC) Mobile Source Air Toxics workshop}
+      \field{booktitle}{Coordinating Research Council (CRC) Mobile Source Air Toxics Workshop}
       \field{month}{2}
       \field{title}{{Spatially and chemically explicit life cycle assessment for conventional and alternative vehicles}}
       \field{year}{2017}
@@ -738,313 +943,6 @@
       \field{title}{{Reduced form modeling of health impacts of air pollution}}
       \field{year}{2016}
     \endentry
-    \entry{TessumMEHA2015}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Alexandria, MN}%
-      }
-      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Minnesota Environmental Health Association Annual Conference}
-      \field{month}{5}
-      \field{title}{{Air Pollution, Health, and Environmental Justice Implications of Shifting Transportation Fuels in the United States}}
-      \field{year}{2015}
-    \endentry
-    \entry{TessumHR2015}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Washington, D.C.}%
-      }
-      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{authornamehash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{authorfullhash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{U.S. House of Representatives}
-      \field{month}{2}
-      \field{title}{{Renewable Fuel Standard: Impacts on American Consumers}}
-      \field{year}{2015}
-    \endentry
-    \entry{Tessum2014LBNL}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=ff872d1e4ef46efe06502e08dce4fd9e}{%
-           family={{Julian D. Marshall}},
-           familyi={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
-      \strng{fullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
-      \strng{authornamehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
-      \strng{authorfullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{March 25, 2014}
-      \field{booktitle}{Lawrence Berkeley National Laboratory Environmental Energy Technologies Division Seminar Series}
-      \field{month}{3}
-      \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels in the United States}}
-      \field{year}{2014}
-    \endentry
-    \entry{Tessum2014NatCap}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=492aa1498b714d685b539d8ff89514f9}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9a07922d0ea2d52822e82b57e95a6799}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Stanford, CA}%
-      }
-      \strng{namehash}{1e0d2a7921a7230190c7ca4e3ae5731b}
-      \strng{fullhash}{1e0d2a7921a7230190c7ca4e3ae5731b}
-      \strng{authornamehash}{1e0d2a7921a7230190c7ca4e3ae5731b}
-      \strng{authorfullhash}{1e0d2a7921a7230190c7ca4e3ae5731b}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2014 Natural Capital Annual Meeting and Training}
-      \field{month}{3}
-      \field{title}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
-      \field{year}{2014}
-    \endentry
-    \entry{Tessum2013AWMA}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Chicago, IL, USA}%
-      }
-      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{authornamehash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \strng{authorfullhash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Air and Waste Management Association 106th Annual Conference and Exhibition}
-      \field{month}{7}
-      \field{title}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
-      \field{year}{2013}
-    \endentry
-    \entry{TessumBeiDa2013}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Beijing, China}%
-      }
-      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Peking University}
-      \field{month}{3}
-      \field{title}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{year}{2013}
-    \endentry
-    \entry{TessumChinaCDC2013}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Beijing, China}%
-      }
-      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{China Center for Disease Control and Prevention}
-      \field{month}{3}
-      \field{title}{{Public health implications of alternative transportation fuels in the United States}}
-      \field{year}{2013}
-    \endentry
-    \entry{TessumPeking2011}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=43ddd0f4437061147ab5338562233d45}{%
-           family={Wagstrom},
-           familyi={W\bibinitperiod},
-           given={Kristina},
-           giveni={K\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=4786971428f7a9371e6212559cab360b}{%
-           family={Marshall},
-           familyi={M\bibinitperiod},
-           given={Julian\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Beijing, China}%
-      }
-      \strng{namehash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \strng{fullhash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \strng{authornamehash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \strng{authorfullhash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Peking University}
-      \field{month}{8}
-      \field{title}{{Air quality and public health impacts of biofuel production and use in the United States}}
-      \field{year}{2011}
-    \endentry
-    \entry{TessumMAS2011}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
-           family={Tessum},
-           familyi={T\bibinitperiod},
-           given={Christopher\bibnamedelima W.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Jason\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Minneapolis, MN, USA}%
-      }
-      \strng{namehash}{1cefcc97a63b7d2eefbd88f349cde737}
-      \strng{fullhash}{1cefcc97a63b7d2eefbd88f349cde737}
-      \strng{authornamehash}{1cefcc97a63b7d2eefbd88f349cde737}
-      \strng{authorfullhash}{1cefcc97a63b7d2eefbd88f349cde737}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Minnesota Academy of Science Annual Meeting}
-      \field{month}{4}
-      \field{title}{{Assessing biofuel sustainability: Lessons from growth of the U.S. industry}}
-      \field{year}{2011}
-    \endentry
-  \endsortlist
-\endrefsection
-
-\refsection{4}
-  \sortlist[entry]{none/global/}
     \entry{Tessum2016ISEEa}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=492aa1498b714d685b539d8ff89514f9}{%
@@ -1080,8 +978,8 @@
       \strng{fullhash}{fc4e13981641b4c6f74f147dfe144ba1}
       \strng{authornamehash}{fc4e13981641b4c6f74f147dfe144ba1}
       \strng{authorfullhash}{fc4e13981641b4c6f74f147dfe144ba1}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
@@ -1114,8 +1012,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
@@ -1170,8 +1068,8 @@
       \strng{fullhash}{2e0557b9c6dfb40223d416e7a881ea5b}
       \strng{authornamehash}{2e0557b9c6dfb40223d416e7a881ea5b}
       \strng{authorfullhash}{2e0557b9c6dfb40223d416e7a881ea5b}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Health Effects Institute Annual Conference, Denver, Colorado}
@@ -1209,13 +1107,47 @@
       \strng{fullhash}{6090c30f5adee332cb84c075a3dc9e0f}
       \strng{authornamehash}{6090c30f5adee332cb84c075a3dc9e0f}
       \strng{authorfullhash}{6090c30f5adee332cb84c075a3dc9e0f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{American Association for Aerosol Research Annual Conference}
       \field{month}{10}
       \field{title}{{Economic input-output life cycle assessment of PM2.5 health impacts and environmental injustice}}
+      \field{year}{2015}
+    \endentry
+    \entry{TessumMEHA2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Alexandria, MN}%
+      }
+      \strng{namehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Minnesota Environmental Health Association Annual Conference}
+      \field{month}{5}
+      \field{title}{{Air Pollution, Health, and Environmental Justice Implications of Shifting Transportation Fuels in the United States}}
       \field{year}{2015}
     \endentry
     \entry{TessumMSI2015}{inproceedings}{}
@@ -1243,8 +1175,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
@@ -1277,8 +1209,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{American Association for Aerosol Research Annual Conference}
@@ -1311,13 +1243,47 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
       \field{month}{8}
       \field{title}{{Environmental justice and equality aspects of conventional and alternative light-duty transportation in the United States}}
+      \field{year}{2014}
+    \endentry
+    \entry{Tessum2014NatCap}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=492aa1498b714d685b539d8ff89514f9}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9a07922d0ea2d52822e82b57e95a6799}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stanford, CA}%
+      }
+      \strng{namehash}{1e0d2a7921a7230190c7ca4e3ae5731b}
+      \strng{fullhash}{1e0d2a7921a7230190c7ca4e3ae5731b}
+      \strng{authornamehash}{1e0d2a7921a7230190c7ca4e3ae5731b}
+      \strng{authorfullhash}{1e0d2a7921a7230190c7ca4e3ae5731b}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 Natural Capital Annual Meeting and Training}
+      \field{month}{3}
+      \field{title}{{A reduced-complexity, variable grid resolution model for air pollution transport and transformation}}
       \field{year}{2014}
     \endentry
     \entry{Tessum2013ISEE}{inproceedings}{}
@@ -1343,13 +1309,47 @@
       \strng{fullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
       \strng{authornamehash}{c8bd08601259c0e0b77bfd4f7ab817c6}
       \strng{authorfullhash}{c8bd08601259c0e0b77bfd4f7ab817c6}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Annual Conference of the International Society for Environmental Epidemiology, International Society for Exposure Science and International Society for Indoor Air Quality}
       \field{month}{8}
       \field{title}{{Air pollution, health, and environmental justice implications of shifting transportation fuels}}
+      \field{year}{2013}
+    \endentry
+    \entry{Tessum2013AWMA}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f664c3724a55d9cc4a7a686f0e3c1d73}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4786971428f7a9371e6212559cab360b}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a94524fea10bb26a5fbde1dc282a93a6}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago, IL, USA}%
+      }
+      \strng{namehash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{authornamehash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \strng{authorfullhash}{0124081eaf70d2f469eb3e9833c34ee3}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Air and Waste Management Association 106th Annual Conference and Exhibition}
+      \field{month}{7}
+      \field{title}{{Life cycle air pollutant emission and impact accounting for transportation fuels}}
       \field{year}{2013}
     \endentry
     \entry{Tessum2013MSI}{inproceedings}{}
@@ -1377,8 +1377,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
@@ -1566,8 +1566,8 @@
       \strng{fullhash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authornamehash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authorfullhash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Society for Environmental Epidemiology Annual Conference}
@@ -1605,8 +1605,8 @@
       \strng{fullhash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authornamehash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authorfullhash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Minnesota Supercomputing Institute Research Exhibition}
@@ -1644,8 +1644,8 @@
       \strng{fullhash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authornamehash}{93467be12bf2c45c9e5501ec5ffebf66}
       \strng{authorfullhash}{93467be12bf2c45c9e5501ec5ffebf66}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Initiative for Renewable Energy and the Environment E3 Conference}
@@ -1678,8 +1678,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{First Annual Fulbright US-Brazil Biofuels Short Course}
