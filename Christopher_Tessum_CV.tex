@@ -15,6 +15,24 @@
 \setsansfont{Helvetica}
 \setmonofont[Scale=0.9]{Inconsolata}
 
+    \defbibenvironment{bibnumeric}
+        {\list
+            {\printtext[labelnumberwidth]{%
+                \printfield{prefixnumber}%
+                \printfield{labelnumber}}}
+            { \settowidth{\labelwidth}{888}%
+                %\setlength{\labelwidth}{\labelnumberwidth}%
+                \setlength{\leftmargin}{\labelwidth}%
+                \setlength{\labelsep}{\biblabelsep}%
+                \addtolength{\leftmargin}{\labelsep}%
+                \setlength{\itemsep}{\bibitemsep}%
+                \setlength{\parsep}{\bibparsep}}%
+            \renewcommand*{\makelabel}[1]{\hss##1}}
+        {\endlist}
+        {\item}
+
+
+
 \addbibresource{/home/chris/Documents/Mendeley Desktop/cv.bib}
 \addbibresource{/home/chris/Documents/Mendeley Desktop/Posters.bib}
 \addbibresource{/home/chris/Documents/Mendeley Desktop/Presentations.bib}
@@ -147,8 +165,8 @@ University of Washington, Seattle, WA 98195 &
 \defbibheading{pubs}[\sc Peer-Reviewed Publications]{\section{#1}}
 \begin{refsection}
 %Tessum2013e,
-\nocite{Chang2017,Tessum2017a,Keeler2016, Touchaei2016,Tessum2015a,Tessum2014a,Hu2014a,Tessum2012,Millet2012}
-\printbibliography[heading=pubs]
+\nocite{Thakrar2017, Chang2017,Tessum2017a,Keeler2016, Touchaei2016,Tessum2015a,Tessum2014a,Hu2014a,Tessum2012,Millet2012}
+\printbibliography[heading=pubs,env=bibnumeric]
 \end{refsection}
 
 \vspace*{-.1in}
@@ -163,7 +181,7 @@ University of Washington, Seattle, WA 98195 &
 \defbibheading{rep}[\sc Reports and Other Publications]{\section{#1}}
 \begin{refsection}
 \nocite{Tessum2010a,Tessum2010}
-\printbibliography[heading=rep]
+\printbibliography[heading=rep,env=bibnumeric]
 \end{refsection}
 
 %Remove space if enough text
@@ -173,7 +191,7 @@ University of Washington, Seattle, WA 98195 &
 \begin{refsection}
 \nocite{TessumHR2015,Tessum2014LBNL,TessumBeiDa2013,TessumChinaCDC2013,
 TessumPeking2011,TessumMAS2011}
-\printbibliography[heading=pres]
+\printbibliography[heading=pres,env=bibnumeric]
 \end{refsection}
 
 %Remove space if enough text
@@ -186,7 +204,7 @@ Marshall2016HEI,TessumAAAR2015,TessumMEHA2015,TessumMSI2015,Tessum2014AAAR,Tessu
 Tessum2014NatCap,Tessum2013ISEE,Tessum2013AWMA,Tessum2013MSI,TessumSETAC2012,
 TessumE32011,TessumIonE2011,TessumLCA2011,TessumISEE2011,TessumMSI2011,TessumE32010,
 TessumBrazil2009}
-\printbibliography[heading=post]
+\printbibliography[heading=post,env=bibnumeric]
 \end{refsection}
 
 

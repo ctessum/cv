@@ -19,6 +19,48 @@
 
 \refsection{1}
   \sortlist[entry]{none/global/}
+    \entry{Thakrar2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=477fc4eb141e926d4c4ec2044564e17e}{%
+           family={Thakrar},
+           familyi={T\bibinitperiod},
+           given={Sumil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5d237a8fb89fd645ebb11176d7b8e2a1}{%
+           family={Goodkind},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=492aa1498b714d685b539d8ff89514f9}{%
+           family={Tessum},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9a4fd890a9d9c0d113c7d5f2713458a9}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a07922d0ea2d52822e82b57e95a6799}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8733ac2a27c775cf0a22824983c4a10d}
+      \strng{fullhash}{8733ac2a27c775cf0a22824983c4a10d}
+      \strng{authornamehash}{8733ac2a27c775cf0a22824983c4a10d}
+      \strng{authorfullhash}{8733ac2a27c775cf0a22824983c4a10d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biomass Bioenergy}
+      \field{title}{{Life cycle air quality impacts on human health from potential switchgrass production in the United States}}
+      \field{year}{2017}
+      \field{pages}{In Press}
+      \range{pages}{-1}
+    \endentry
     \entry{Chang2017}{article}{}
       \name{author}{12}{}{%
         {{hash=30c6df9e4b6892db7704d2149f714318}{%
@@ -86,16 +128,16 @@
       \strng{fullhash}{d3886b8ca29d7f728984729c58fb3545}
       \strng{authornamehash}{d3886b8ca29d7f728984729c58fb3545}
       \strng{authorfullhash}{d3886b8ca29d7f728984729c58fb3545}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-9326}
       \field{journaltitle}{Environ. Res. Lett.}
-      \field{month}{9}
-      \field{number}{In Press}
       \field{title}{{Ancillary health effects of climate mitigation scenarios as drivers of policy uptake: a review of air quality, transportation and diet co-benefits modeling studies}}
       \field{year}{2017}
+      \field{pages}{In Press}
+      \range{pages}{-1}
       \verb{file}
       \verb :home/chris/Documents/Mendeley Desktop/Chang et al/Environ. Res. Lett/Chang et al. - 2017 - Ancillary health effects of climate mitigation scenarios as drivers of policy uptake a review of air quality, tran.pdf:pdf
       \endverb
@@ -122,8 +164,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PLoS ONE}
@@ -179,8 +221,8 @@
       \strng{fullhash}{4ec1dd3b2951d48c4ceeb6cd2902b316}
       \strng{authornamehash}{4ec1dd3b2951d48c4ceeb6cd2902b316}
       \strng{authorfullhash}{4ec1dd3b2951d48c4ceeb6cd2902b316}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Adv.}
@@ -221,8 +263,8 @@
       \strng{fullhash}{e503a6d8ff834406b0f633897ed59c2c}
       \strng{authornamehash}{e503a6d8ff834406b0f633897ed59c2c}
       \strng{authorfullhash}{e503a6d8ff834406b0f633897ed59c2c}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{13522310}
@@ -264,8 +306,8 @@
       \strng{fullhash}{304432aa7fef63a4df0407464a53abd8}
       \strng{authornamehash}{304432aa7fef63a4df0407464a53abd8}
       \strng{authorfullhash}{304432aa7fef63a4df0407464a53abd8}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1991-9603}
@@ -308,8 +350,8 @@
       \strng{fullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authornamehash}{334b0a9f3e0c15dcf0abf1f76974093b}
       \strng{authorfullhash}{334b0a9f3e0c15dcf0abf1f76974093b}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
@@ -406,8 +448,8 @@
       \strng{fullhash}{03d3be2eed87203df95216014fb01a5e}
       \strng{authornamehash}{03d3be2eed87203df95216014fb01a5e}
       \strng{authorfullhash}{03d3be2eed87203df95216014fb01a5e}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Geophys. Res. Atmos.}
@@ -444,8 +486,8 @@
       \strng{fullhash}{0124081eaf70d2f469eb3e9833c34ee3}
       \strng{authornamehash}{0124081eaf70d2f469eb3e9833c34ee3}
       \strng{authorfullhash}{0124081eaf70d2f469eb3e9833c34ee3}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Environ. Sci. Technol.}
@@ -504,8 +546,8 @@
       \strng{fullhash}{21da57a65ae5c5a7de830f9c29b891f7}
       \strng{authornamehash}{21da57a65ae5c5a7de830f9c29b891f7}
       \strng{authorfullhash}{21da57a65ae5c5a7de830f9c29b891f7}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We used an ensemble of aircraft measurements with the GEOS-Chem chemical transport model to constrain present-day North American ethanol sources, and gauge potential long-range impacts of increased ethanol fuel use. We find that current ethanol emissions are underestimated by 50{\%} in Western North America, and overestimated by a factor of 2 in the east. Our best estimate for year-2005 North American ethanol emissions is 670 GgC/y, with 440 GgC/y from the continental U.S. We apply these optimized source estimates to investigate two scenarios for increased ethanol fuel use in the U.S.: one that assumes a complete transition from gasoline to E85 fuel, and one tied to the biofuel requirements of the U.S. Energy Indepence and Security Act (EISA). For both scenarios, increased ethanol emissions lead to higher atmospheric acetaldehyde concentrations (by up to 14{\%} during winter for the All-E85 scenario and 2{\%} for the EISA scenario) and an associated shift in reactive nitrogen partitioning reflected by an increase in the peroxyacetyl nitrate (PAN) to NO(y) ratio. The largest relative impacts occur during fall, winter, and spring because of large natural emissions of ethanol and other organic compounds during summer. Projected changes in atmospheric PAN reflect a balance between an increased supply of peroxyacetyl radicals from acetaldehyde oxidation, and the lower NO(x) emissions for E85 relative to gasoline vehicles. The net effect is a general PAN increase in fall through spring, and a weak decrease over the U.S. Southeast and the Atlantic Ocean during summer. Predicted NO(x) concentrations decrease in surface air over North America (by as much 5{\%} in the All-E85 scenario). Downwind of North America this effect is counteracted by higher NO(x) export efficiency driven by increased PAN production and transport. From the point of view of NO(x) export from North America, the increased PAN formation associated with E85 fuel use thus acts to offset the associated lower NO(x) emissions.}
