@@ -57,8 +57,11 @@ var cv = []Section{
 		},
 	},
 	{
-		Name:      "Peer-Reviewed Publications",
-		Citations: []template.HTML{"Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016", "Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012"},
+		Name: "Peer-Reviewed Publications",
+		Citations: []template.HTML{
+			"Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
+			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
+		},
 	},
 	{
 		Name:      "Reports and Other Publications",
@@ -66,12 +69,22 @@ var cv = []Section{
 	},
 	{
 		Name: "Invited Presentations",
-		Citations: []template.HTML{"TessumHR2015", "Tessum2014LBNL", "TessumBeiDa2013", "TessumChinaCDC2013",
-			"TessumPeking2011", "TessumMAS2011"},
+		Citations: []template.HTML{
+			"Tessum2017EIC", "Tessum2017CRC", "TessumHR2015", "TessumMEHA2015", "Tessum2014LBNL",
+			"Tessum2014NatCap", "TessumBeiDa2013", "TessumChinaCDC2013", "Tessum2013AWMA",
+			"TessumSETAC2012", "TessumPeking2011", "TessumMAS2011",
+		},
 	},
 	{
-		Name:      "Conference Presentations",
-		Citations: []template.HTML{"Tessum2017EIC", "Tessum2017CRC", "Tessum2016Cobenefits", "Tessum2016ISEEa", "Tessum2016ISEEb", "Marshall2016HEI", "TessumAAAR2015", "TessumMEHA2015", "TessumMSI2015", "Tessum2014AAAR", "Tessum2014ISEE", "Tessum2014NatCap", "Tessum2013ISEE", "Tessum2013AWMA", "Tessum2013MSI", "TessumSETAC2012", "TessumE32011", "TessumIonE2011", "TessumLCA2011", "TessumISEE2011", "TessumMSI2011", "TessumE32010", "TessumBrazil2009"},
+		Name: "Conference Presentations",
+		Citations: []template.HTML{
+			"Tessum2016Cobenefits", "Tessum2016ISEEa",
+			"Tessum2016ISEEb", "Marshall2016HEI", "TessumAAAR2015",
+			"TessumMSI2015", "Tessum2014AAAR", "Tessum2014ISEE",
+			"Tessum2013ISEE", "Tessum2013MSI",
+			"TessumE32011", "TessumIonE2011", "TessumLCA2011", "TessumISEE2011", "TessumMSI2011",
+			"TessumE32010", "TessumBrazil2009",
+		},
 	},
 	{
 		Name: "Teaching Experience",
@@ -122,23 +135,26 @@ var cv = []Section{
 				Name: "Admission to First Annual Fulbright US–Brazil Biofuels Short Course",
 				Time: "2009",
 			},
-			{
+			/*{
 				Name: "National Merit Scholarship	",
 				Time: "2002–2006",
-			},
+			},*/
 		},
 	},
 	{
 		Name: "Service",
 		Items: []Item{
 			{
-				Name: "Reviewer for grant applications to the Health Effects Institute and the US EPA",
+				Name: "Grant Application Reviewer: Health Effects Institute and the US EPA",
 			},
 			{
-				Name: "Reviewer for publications by the Department of Energy and in journals including <i>Environmental Science and Technology</i> and <i>Atmospheric Environment</i>",
+				Name: "Report Peer-Reviewer: U.S. Department of Energy",
 			},
 			{
-				Name: "Member of the International Society for Environmental Epidemiology and the American Association for Aerosol Research",
+				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i> and <i>Atmospheric Environment</i>",
+			},
+			{
+				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
 			},
 		},
 	},
