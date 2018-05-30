@@ -1,5 +1,15 @@
 package main
 
+/* gs \
+ -o Christopher_Tessum_CV_letter.pdf \
+-sDEVICE=pdfwrite \
+-sPAPERSIZE=letter \
+-dFIXEDMEDIA \
+-dPDFFitPage \
+-dCompatibilityLevel=1.4 \
+ Christopher_Tessum_CV.pdf
+*/
+
 import (
 	"bytes"
 	"fmt"
