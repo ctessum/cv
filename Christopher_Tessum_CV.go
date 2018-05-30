@@ -59,16 +59,18 @@ var cv = []Section{
 		},
 	},
 	{
-		Name: "Peer-Reviewed Publications",
+		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
 			"Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
 	},
 	{
-		Name: "Manuscripts in Preparation or Review",
+		Name: "Manuscripts in Preparation or Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"Gilmore2018", "GoodkindISRM2018", "PaolellaGrid2018", "LiuTrans2018", "KelpNN2018", "TessumEIO2018",
+			"Gilmore2018", "GoodkindISRM2018", "LiuTrans2018", "PaolellaGrid2018",
+			"TessumEIO2018", "KelpNN2018", "PaolellaEJ2018",
+			"ChamblissiF2018", "Dimantchev2018", "HillCorn2018", "MullerPolicy2018",
 		},
 	},
 	{
@@ -204,6 +206,11 @@ func parseBibtex(bibs []string) map[template.HTML]*bibtex.Element {
 	return out
 }
 
+func underlineName(s string) string {
+	s = strings.Replace(s, "C.W. Tessum", "<u>C.W. Tessum</u>", -1)
+	return strings.Replace(s, "Tessum, C.W.", "<u>Tessum, C.W.</u>", -1)
+}
+
 func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(template.HTML) (template.HTML, error) {
 	return func(key template.HTML) (template.HTML, error) {
 		elem, ok := citations[key]
@@ -212,7 +219,7 @@ func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(templa
 		}
 		switch elem.Type {
 		case "article":
-			return template.HTML(parseArticle(elem)), nil
+			return template.HTML(underlineName(parseArticle(elem))), nil
 		case "inproceedings":
 			return template.HTML(parseProceedings(elem)), nil
 		case "techreport":
@@ -321,6 +328,7 @@ func parseAuthors(a string) string {
 }
 
 func parseName(i, n int, a string) string {
+	corresponding := strings.Contains(a, "*")
 	a = strings.TrimLeft(strings.TrimRight(a, "}"), "{")
 	names := strings.Split(a, " ")
 	family := strings.TrimRight(strings.TrimSpace(names[0]), ",")
@@ -334,6 +342,9 @@ func parseName(i, n int, a string) string {
 		if len(names) == 3 {
 			s += middle
 		}
+		if corresponding {
+			s += "*"
+		}
 		return s + ","
 	}
 	s := " " + given
@@ -342,7 +353,13 @@ func parseName(i, n int, a string) string {
 	}
 	s += " " + family
 	if i == n-1 {
+		if corresponding {
+			s += "*"
+		}
 		return " and " + s
+	}
+	if corresponding {
+		s += "*"
 	}
 	return s + ","
 }
