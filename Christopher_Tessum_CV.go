@@ -6,15 +6,17 @@ import (
 	"html/template"
 	"io"
 	"os"
+	"regexp"
 	"strings"
 
 	"github.com/caltechlibrary/bibtex"
 )
 
 var bibs = []string{
-	"../../Mendeley Desktop/cv.bib",
-	"../../Mendeley Desktop/Posters.bib",
-	"../../Mendeley Desktop/Presentations.bib",
+	"cv.bib",
+	"Posters.bib",
+	"Presentations.bib",
+	"inprep.bib",
 }
 
 type Section struct {
@@ -64,6 +66,12 @@ var cv = []Section{
 		},
 	},
 	{
+		Name: "Manuscripts in Preparation or Review",
+		Citations: []template.HTML{
+			"Gilmore2018", "GoodkindISRM2018", "PaolellaGrid2018", "LiuTrans2018", "KelpNN2018", "TessumEIO2018",
+		},
+	},
+	{
 		Name:      "Reports and Other Publications",
 		Citations: []template.HTML{"Tessum2010a", "Tessum2010"},
 	},
@@ -91,7 +99,7 @@ var cv = []Section{
 		Items: []Item{
 			{
 				Name: "Guest lectures in life cycle assessment, air pollution, and health to undergraduate and graduate students",
-				Time: "2015–2017",
+				Time: "2015–Present",
 			},
 			{
 				Name: "Teaching Assistant: Civil Engineering 5561: Air Quality Engineering, University of Minnesota",
@@ -124,7 +132,7 @@ var cv = []Section{
 			},
 		},
 	},
-	{
+	/*{
 		Name: "Honors and Awards",
 		Items: []Item{
 			{
@@ -135,14 +143,14 @@ var cv = []Section{
 				Name: "Admission to First Annual Fulbright US–Brazil Biofuels Short Course",
 				Time: "2009",
 			},
-			/*{
+			{
 				Name: "National Merit Scholarship	",
 				Time: "2002–2006",
-			},*/
+			},
 		},
-	},
+	},*/
 	{
-		Name: "Service",
+		Name: "Professional Service",
 		Items: []Item{
 			{
 				Name: "Grant Application Reviewer: Health Effects Institute and the US EPA",
@@ -151,7 +159,7 @@ var cv = []Section{
 				Name: "Report Peer-Reviewer: U.S. Department of Energy",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i> and <i>Atmospheric Environment</i>",
+				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>",
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
@@ -217,20 +225,44 @@ func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(templa
 	}
 }
 
+var matchDots *regexp.Regexp
+
+func init() {
+	matchDots = regexp.MustCompile(`[\.]{2,}`)
+}
+
 func parseArticle(elem *bibtex.Element) string {
 	title := parseTitle(elem.Tags["title"])
 	authors := parseAuthors(elem.Tags["author"])
 	year := parseYear(elem.Tags["year"])
 	journal := parsePublication(elem.Tags["journal"])
 	volume := parseVolume(elem.Tags["volume"])
-	issue := parseIssue(elem.Tags["issue"])
+	issue := parseIssue(elem.Tags["number"])
 	pages := parsePages(elem.Tags["pages"])
-	s := fmt.Sprintf("%s (%s) %s. %s. ", authors, year, title, journal)
-	if volume != "" {
-		s += volume + ": "
+	s := authors
+	if year != "" {
+		s = fmt.Sprintf("%s (%s)", s, year)
+	} else {
+		s = fmt.Sprintf("%s.", s)
 	}
-	s += issue + " " + pages + "."
-	return s
+	if title != "" {
+		s = fmt.Sprintf("%s %s.", s, title)
+	}
+	if journal != "" {
+		s = fmt.Sprintf("%s %s.", s, journal)
+	}
+	if volume != "" {
+		s += " " + volume
+	}
+	if issue != "" {
+		s = fmt.Sprintf("%s:%s", s, issue)
+	}
+	if pages != "" {
+		s += " " + pages + "."
+	} else {
+		s += "."
+	}
+	return matchDots.ReplaceAllString(s, ".")
 }
 
 func parseProceedings(elem *bibtex.Element) string {
