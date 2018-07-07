@@ -82,6 +82,7 @@ var cv = []Section{
 			"Gilmore2018", "GoodkindISRM2018", "LiuTrans2018",
 			"TessumEIO2018", "KelpNN2018", "PaolellaEJ2018",
 			"ChamblissiF2018", "Dimantchev2018", "HillCorn2018", "MullerPolicy2018",
+			"ThakrarInMAP2018",
 		},
 	},
 	{
