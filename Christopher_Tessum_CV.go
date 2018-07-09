@@ -77,9 +77,14 @@ var cv = []Section{
 		},
 	},
 	{
-		Name: "Manuscripts in Preparation or Review <small>(*=corresponding author)</small>",
+		Name: "Manuscripts in Review", // <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
 			"Gilmore2018", "GoodkindISRM2018", "LiuTrans2018",
+		},
+	},
+	{
+		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
+		Citations: []template.HTML{
 			"TessumEIO2018", "KelpNN2018", "PaolellaEJ2018",
 			"ChamblissiF2018", "Dimantchev2018", "HillCorn2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
