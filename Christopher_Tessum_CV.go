@@ -52,7 +52,7 @@ var cv = []Section{
 			{
 				Name:        "Postdoctoral Associate—University of Minnesota",
 				Time:        "2015–2016",
-				Description: "Department Bioproducts and Biosystems Engineering",
+				Description: "Department of Bioproducts and Biosystems Engineering",
 			},
 		},
 	},
@@ -77,16 +77,16 @@ var cv = []Section{
 		},
 	},
 	{
-		Name: "Manuscripts in Review", // <small>(*=corresponding author)</small>",
+		Name: "Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"Gilmore2018", "GoodkindISRM2018", "LiuTrans2018",
+			"TessumEIO2018", "Gilmore2018", "LiuTrans2018", "GoodkindISRM2018", "KelpNN2018", "HillCorn2018",
 		},
 	},
 	{
 		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"TessumEIO2018", "KelpNN2018", "PaolellaEJ2018",
-			"ChamblissiF2018", "Dimantchev2018", "HillCorn2018", "MullerPolicy2018",
+			"PaolellaEJ2018",
+			"ChamblissiF2018", "Dimantchev2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
 		},
 	},
@@ -105,7 +105,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
-			"Tessum2016Cobenefits", "Tessum2016ISEEa",
+			"Tessum2018ISEE", "Tessum2016Cobenefits", "Tessum2016ISEEa",
 			"Tessum2016ISEEb", "Marshall2016HEI", "TessumAAAR2015",
 			"TessumMSI2015", "Tessum2014AAAR", "Tessum2014ISEE",
 			"Tessum2013ISEE", "Tessum2013MSI",
@@ -263,6 +263,7 @@ func parseArticle(elem *bibtex.Element) string {
 	volume := parseVolume(elem.Tags["volume"])
 	issue := parseIssue(elem.Tags["number"])
 	pages := parsePages(elem.Tags["pages"])
+	url := parseURL(elem.Tags["url"])
 	s := authors
 	if year != "" {
 		s = fmt.Sprintf("%s (%s)", s, year)
@@ -282,7 +283,13 @@ func parseArticle(elem *bibtex.Element) string {
 		s = fmt.Sprintf("%s:%s", s, issue)
 	}
 	if pages != "" {
-		s += " " + pages + "."
+		if url != "" {
+			s += fmt.Sprintf(" <a href=%s>%s</a>.", url, pages)
+		} else {
+			s += " " + pages + "."
+		}
+	} else if url != "" {
+		s += fmt.Sprintf(" <a href=%s>%s</a>.", url, url)
 	} else {
 		s += "."
 	}
@@ -406,7 +413,7 @@ func parsePages(p string) string {
 }
 
 func parseURL(u string) string {
-	u = strings.TrimRight(strings.TrimLeft(u, "{"), "}")
+	u = strings.TrimSpace(strings.TrimRight(strings.TrimLeft(u, "{"), "}"))
 	u = strings.Replace(u, `{\_}`, "_", -1)
 	return u
 }
