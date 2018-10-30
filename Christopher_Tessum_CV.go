@@ -86,6 +86,7 @@ var cv = []Section{
 		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
 			"PaolellaEJ2018",
+			"TessumNN2019",
 			"ChamblissiF2018", "Dimantchev2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
 		},
@@ -105,6 +106,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
 			"Tessum2018ISEE", "Tessum2016Cobenefits", "Tessum2016ISEEa",
 			"Tessum2016ISEEb", "Marshall2016HEI", "TessumAAAR2015",
 			"TessumMSI2015", "Tessum2014AAAR", "Tessum2014ISEE",
@@ -172,10 +174,10 @@ var cv = []Section{
 		Name: "Professional Service",
 		Items: []Item{
 			{
-				Name: "Grant Application Reviewer: Health Effects Institute and the US EPA",
+				Name: "Grant Application Reviewer: NSF, Health Effects Institute, and US EPA",
 			},
 			{
-				Name: "Report Peer-Reviewer: U.S. Department of Energy",
+				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
 				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>",
@@ -267,7 +269,7 @@ func parseArticle(elem *bibtex.Element) string {
 	s := authors
 	if year != "" {
 		s = fmt.Sprintf("%s (%s)", s, year)
-	} else {
+	} else if !(s[len(s)-1:] == "." || s[len(s)-2:] == ".*") {
 		s = fmt.Sprintf("%s.", s)
 	}
 	if title != "" {
@@ -368,6 +370,9 @@ func parseName(i, n int, a string) string {
 		}
 		if corresponding {
 			s += "*"
+		}
+		if n == 1 {
+			return s
 		}
 		return s + ","
 	}
