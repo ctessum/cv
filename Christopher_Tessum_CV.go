@@ -189,6 +189,105 @@ var cv = []Section{
 	},
 }
 
+var resume = []Section{
+	{
+		Name: "Professional Appointments",
+		Items: []Item{
+			{
+				Name:        "Research Scientist—University of Washington",
+				Time:        "2016–Present",
+				Description: "Department of Civil and Environmental Engineering",
+			},
+			{
+				Name:        "Postdoctoral Associate—University of Minnesota",
+				Time:        "2015–2016",
+				Description: "Department of Bioproducts and Biosystems Engineering",
+			},
+		},
+	},
+	{
+		Name: "Education",
+		Items: []Item{
+			{
+				Name: "Ph.D., Civil, Environmental, and Geo- Engineering (public health minor)—University of Minnesota",
+				Time: "2009–2014",
+			},
+			{
+				Name: "B.M.E., Mechanical Engineering (<i>cum laude</i>)—University of Minnesota",
+				Time: "2002–2006",
+			},
+		},
+	},
+	{
+		Name: "Selected Publications <span style='font-variant:normal !important'><small>(*=corresponding author; full list at <a href=https://bit.ly/2DzkZoO>https://bit.ly/2DzkZoO</a>)</small></span>",
+		Citations: []template.HTML{
+			"KelpNN2018", "Tessum2017a", "Tessum2014a",
+		},
+	},
+	{
+		Name: "Programming Languages <span style='font-variant:normal !important'><small>(In order of experience)</small></span>",
+		Items: []Item{
+			{
+				Name: "Go (Golang); Python; R; Javascript; SQL; FORTRAN; C; MATLAB; LabVIEW",
+			},
+		},
+	},
+	{
+		Name: "Libraries and Frameworks",
+		Items: []Item{
+			{
+				Name: "Tensorflow; Kubernetes; HPC; Google Cloud Platform; Git/Github; Travis CI; PostGIS; React",
+			},
+		},
+	},
+	{
+		Name: "Open-Source Projects <span style='font-variant:normal !important'><small>(<a href=https://github.com/ctessum>https://github.com/ctessum</a>)</small></span>",
+		Items: []Item{
+			{
+				Name: "<a href=https://github.com/spatialmodel/inmap>https://github.com/spatialmodel/inmap</a>; <a href=https://github.com/gonum/plot/>https://github.com/gonum/plot/</a>",
+			},
+		},
+	},
+	{
+		Name: "Other Professional Experience",
+		Items: []Item{
+			{
+				Name: "English Teacher: Instituto Cultural Peruano Norteamericano; Chiclayo, Peru",
+				Time: "2008",
+			},
+			{
+				Name: "Engineer: Energy Management Solutions, Inc.; Minneapolis, MN",
+				Time: "2007–2008",
+			},
+			{
+				Name: "Aerodynamics Intern: Volvo Car Corporation; Gothenburg, Sweden",
+				Time: "2006",
+			},
+			{
+				Name: "Automation Intern: Voith Paper AG; Heidenheim an der Brenz, Germany",
+				Time: "2006",
+			},
+		},
+	},
+	{
+		Name: "Professional Service",
+		Items: []Item{
+			{
+				Name: "Grant Application Reviewer: NSF, Health Effects Institute, and US EPA",
+			},
+			{
+				Name: "Report Peer-Reviewer: US Department of Energy",
+			},
+			{
+				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>",
+			},
+			{
+				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
+			},
+		},
+	},
+}
+
 func main() {
 	citations := parseBibtex(bibs)
 
@@ -200,6 +299,11 @@ func main() {
 	w, err := os.Create("Christopher_Tessum_CV.html")
 	check(err)
 	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", cv))
+	w.Close()
+
+	w, err = os.Create("Christopher_Tessum_Resume.html")
+	check(err)
+	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", resume))
 	w.Close()
 }
 

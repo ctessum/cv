@@ -83,8 +83,8 @@
         </div>
         {{else}} {{range .Items}}
         <div class="row item">
-          <div class="col-md-9">{{.Name}}<br>{{.Description}}</div>
-          <div class="col-md-3 text-right">{{.Time}}</div>
+          <div class="col-md-{{if .Time}}9{{else}}12{{end}}">{{.Name}}<br>{{.Description}}</div>
+          {{if .Time}}<div class="col-md-3 text-right">{{.Time}}</div>{{end}}
         </div>{{end}}
       </div>{{end}}
     </div>{{end}}
