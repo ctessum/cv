@@ -191,6 +191,13 @@ var cv = []Section{
 	},
 }
 
+var cv1Page = []Section{
+	cv[0],
+	cv[1],
+	cv[10],
+	cv[2],
+}
+
 var resume = []Section{
 	{
 		Name: "Professional Appointments",
@@ -301,6 +308,11 @@ func main() {
 	w, err := os.Create("Christopher_Tessum_CV.html")
 	check(err)
 	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", cv))
+	w.Close()
+
+	w, err = os.Create("Christopher_Tessum_CV_1page.html")
+	check(err)
+	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", cv1Page))
 	w.Close()
 
 	w, err = os.Create("Christopher_Tessum_Resume.html")
