@@ -1,7 +1,8 @@
 package main
 
 // Change paper size:
-/* gs \
+/*
+gs \
  -o Christopher_Tessum_CV_letter.pdf \
 -sDEVICE=pdfwrite \
 -sPAPERSIZE=letter \
@@ -9,6 +10,7 @@ package main
 -dPDFFitPage \
 -dCompatibilityLevel=1.4 \
  Christopher_Tessum_CV.pdf
+mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV.pdf
 */
 
 import (
@@ -72,14 +74,15 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"LiuTrans2018", "PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
+			"GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
+			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
 	},
 	{
 		Name: "Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"TessumEIO2018", "HillCorn2018", "GoodkindISRM2018", "Gilmore2018", "KelpNN2018",
+			"Gilmore2018", "KelpNN2018",
 		},
 	},
 	{
@@ -288,7 +291,10 @@ var resume = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>",
+				Name: `Journal Peer-Reviewer: <i>Environmental Science and Technology</i>,
+				<i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>,
+				<i>Proceedings of the Royal Society of London A</i>
+				<i>International Journal of Geographical Information Science</i>`,
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
