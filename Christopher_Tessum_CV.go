@@ -74,7 +74,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
+			"Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
@@ -82,7 +82,7 @@ var cv = []Section{
 	{
 		Name: "Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"Gilmore2018", "KelpNN2018",
+			"KelpNN2018",
 		},
 	},
 	{
