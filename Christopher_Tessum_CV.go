@@ -48,7 +48,7 @@ var cv = []Section{
 		Items: []Item{
 			{
 				Name:        "Research Scientist—University of Washington",
-				Time:        "2016–Present",
+				Time:        "2016–2019",
 				Description: "Department of Civil and Environmental Engineering",
 			},
 			{
@@ -185,7 +185,7 @@ var cv = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>",
+				Name: "Journal Peer-Reviewer: <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
