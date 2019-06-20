@@ -9,8 +9,8 @@ gs \
 -dFIXEDMEDIA \
 -dPDFFitPage \
 -dCompatibilityLevel=1.4 \
- Christopher_Tessum_CV.pdf
-mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV.pdf
+ Christopher_Tessum_CV_2page.pdf
+mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV_2page.pdf
 */
 
 import (
@@ -46,6 +46,11 @@ var cv = []Section{
 	{
 		Name: "Professional Appointments",
 		Items: []Item{
+			{
+				Name:        "Assistant Professor—University of Illinois at Urbana-Champaign",
+				Time:        "January 2020 (incoming)",
+				Description: "Department of Civil and Environmental Engineering",
+			},
 			{
 				Name:        "Research Scientist—University of Washington",
 				Time:        "2016–2019",
@@ -176,7 +181,7 @@ var cv = []Section{
 		},
 	},*/
 	{
-		Name: "Professional Service",
+		Name: "Synergistic Activities",
 		Items: []Item{
 			{
 				Name: "Grant Application Reviewer: NSF, Health Effects Institute, and US EPA",
@@ -199,6 +204,7 @@ var cv1Page = []Section{
 	cv[1],
 	cv[10],
 	cv[2],
+	cv[3],
 }
 
 var resume = []Section{
