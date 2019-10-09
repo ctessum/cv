@@ -79,7 +79,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
+			"Dimantchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
@@ -97,7 +97,7 @@ var cv = []Section{
 			"DomingoAg2019",
 			"PaolellaEJ2018",
 			"TessumNN2019",
-			"ChamblissiF2018", "Dimantchev2018", "MullerPolicy2018",
+			"ChamblissiF2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
 		},
 	},
@@ -297,10 +297,13 @@ var resume = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
-				Name: `Journal Peer-Reviewer: <i>Environmental Science and Technology</i>,
+				Name: `Journal Peer-Reviewer:
+				<i>Nature Sustainability</i>,
+				<i>Environmental Science and Technology</i>,
 				<i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>,
-				<i>Proceedings of the Royal Society of London A</i>
-				<i>International Journal of Geographical Information Science</i>`,
+				<i>Proceedings of the Royal Society of London A</i>,
+				<i>International Journal of Geographical Information Science</i>,
+				<i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>`,
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
