@@ -9,8 +9,8 @@ gs \
 -dFIXEDMEDIA \
 -dPDFFitPage \
 -dCompatibilityLevel=1.4 \
- Christopher_Tessum_CV_2page.pdf
-mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV_2page.pdf
+ Christopher_Tessum_CV.pdf
+mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV.pdf
 */
 
 import (
@@ -48,7 +48,7 @@ var cv = []Section{
 		Items: []Item{
 			{
 				Name:        "Assistant Professor—University of Illinois at Urbana-Champaign",
-				Time:        "January 2020 (incoming)",
+				Time:        "2020–present",
 				Description: "Department of Civil and Environmental Engineering",
 			},
 			{
@@ -79,7 +79,8 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"Dimantchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
+			"ThindEGU2019",
+			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
@@ -93,10 +94,8 @@ var cv = []Section{
 	{
 		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"ThindEGU2019",
 			"DomingoAg2019",
 			"PaolellaEJ2018",
-			"TessumNN2019",
 			"ChamblissiF2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
 		},
@@ -190,7 +189,7 @@ var cv = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
+				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences of the USA</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
@@ -298,6 +297,7 @@ var resume = []Section{
 			},
 			{
 				Name: `Journal Peer-Reviewer:
+				<i>Proceedings of the National Academy of Sciences of the USA</i>,
 				<i>Nature Sustainability</i>,
 				<i>Environmental Science and Technology</i>,
 				<i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>,
