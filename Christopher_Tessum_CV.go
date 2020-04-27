@@ -189,7 +189,7 @@ var cv = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences of the USA</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
+				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
 				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
