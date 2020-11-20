@@ -1,28 +1,20 @@
 package main
 
-// Change paper size:
-/*
-gs \
- -o Christopher_Tessum_CV_letter.pdf \
--sDEVICE=pdfwrite \
--sPAPERSIZE=letter \
--dFIXEDMEDIA \
--dPDFFitPage \
--dCompatibilityLevel=1.4 \
- Christopher_Tessum_CV.pdf
-mv Christopher_Tessum_CV_letter.pdf Christopher_Tessum_CV.pdf
-*/
-
 import (
 	"bytes"
+	"context"
 	"fmt"
 	"html/template"
 	"io"
+	"net/http"
+	"net/http/httptest"
 	"os"
 	"regexp"
 	"strings"
 
 	"github.com/caltechlibrary/bibtex"
+	"github.com/chromedp/cdproto/page"
+	"github.com/chromedp/chromedp"
 )
 
 var bibs = []string{
@@ -79,14 +71,15 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"ThindEGU2019",
+			"KelpNN2020",
+			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
 	},
 	{
-		Name: "Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
+		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
 			"KelpNN2018",
 		},
@@ -192,13 +185,13 @@ var cv = []Section{
 				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
-				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
+				Name: "Member: American Geophysical Union (AGU) and Association of Environmental Engineering and Science Professors (AEESP)",
 			},
 		},
 	},
 }
 
-var cv1Page = []Section{
+var cv2Page = []Section{
 	cv[0],
 	cv[1],
 	cv[10],
@@ -306,13 +299,22 @@ var resume = []Section{
 				<i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>`,
 			},
 			{
-				Name: "Member: International Society for Environmental Epidemiology and American Association for Aerosol Research",
+				Name: "Member: American Geophysical Union (AGU) and Association of Environmental Engineering and Science Professors (AEESP)",
 			},
 		},
 	},
 }
 
 func main() {
+
+	render(cv, "Christopher_Tessum_CV.pdf")
+
+	render(cv2Page, "Christopher_Tessum_CV_2page.pdf")
+
+	render(resume, "Christopher_Tessum_CV_Resume.pdf")
+}
+
+func render(cv []Section, filename string) {
 	citations := parseBibtex(bibs)
 
 	tmpl, err := template.New("cv").Funcs(map[string]interface{}{
@@ -320,20 +322,11 @@ func main() {
 	}).ParseFiles("Christopher_Tessum_CV_template.html")
 	check(err)
 
-	w, err := os.Create("Christopher_Tessum_CV.html")
+	var b bytes.Buffer
 	check(err)
-	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", cv))
-	w.Close()
+	check(tmpl.ExecuteTemplate(&b, "Christopher_Tessum_CV_template.html", cv))
 
-	w, err = os.Create("Christopher_Tessum_CV_1page.html")
-	check(err)
-	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", cv1Page))
-	w.Close()
-
-	w, err = os.Create("Christopher_Tessum_Resume.html")
-	check(err)
-	check(tmpl.ExecuteTemplate(w, "Christopher_Tessum_CV_template.html", resume))
-	w.Close()
+	printPDF(b.Bytes(), filename)
 }
 
 func parseBibtex(bibs []string) map[template.HTML]*bibtex.Element {
@@ -565,6 +558,37 @@ func parseLocation(t string) string {
 	t = strings.TrimRight(strings.TrimLeft(t, "{"), "}")
 	t = strings.Replace(t, `{\~{a}}`, "ã", -1)
 	return t
+}
+
+func printPDF(cv []byte, filename string) {
+	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		_, err := w.Write(bytes.TrimSpace(cv))
+		check(err)
+	}))
+
+	ctx, cancel := chromedp.NewContext(context.Background())
+	defer cancel()
+
+	pdfPrint := chromedp.ActionFunc(func(ctx context.Context) error {
+		pdf := page.PrintToPDF()
+		pdf = pdf.WithMarginTop(1)
+		pdf = pdf.WithMarginBottom(1)
+		data, _, err := pdf.Do(ctx)
+		check(err)
+
+		o, err := os.Create(filename)
+		check(err)
+		_, err = o.Write(data)
+		check(err)
+		o.Close()
+		return nil
+	})
+
+	check(chromedp.Run(ctx,
+		chromedp.Navigate(ts.URL),
+		pdfPrint,
+	))
 }
 
 func check(err error) {
