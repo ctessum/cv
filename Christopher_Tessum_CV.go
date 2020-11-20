@@ -100,6 +100,7 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
+			"Tessum2021AMS", "Tessum2020ACM",
 			"Tessum2017EIC", "Tessum2017CRC", "TessumHR2015", "TessumMEHA2015", "Tessum2014LBNL",
 			"Tessum2014NatCap", "TessumBeiDa2013", "TessumChinaCDC2013", "Tessum2013AWMA",
 			"TessumSETAC2012", "TessumPeking2011", "TessumMAS2011",
@@ -138,11 +139,11 @@ var cv = []Section{
 		Name: "Professional Experience",
 		Items: []Item{
 			{
-				Name: "Owner: CT Consulting",
+				Name: "Owner/Partner: CT Consulting LLC, Enviromind LLC",
 				Time: "2008–Present",
 			},
 			{
-				Name: "Engineer: Energy Management Solutions, Inc.",
+				Name: "Energy Auditor: Energy Management Solutions, Inc.",
 				Time: "2007–2008",
 			},
 			{
@@ -311,7 +312,7 @@ func main() {
 
 	render(cv2Page, "Christopher_Tessum_CV_2page.pdf")
 
-	render(resume, "Christopher_Tessum_CV_Resume.pdf")
+	render(resume, "Christopher_Tessum_Resume.pdf")
 }
 
 func render(cv []Section, filename string) {
