@@ -21,6 +21,7 @@ jobs:
           git config --local user.email "ctessum@gmail.com"
           git config --local user.name "Christopher Tessum"
           git add *.pdf
+          git rm *.html *.go *.bib go.mod go.sum
           git commit -m "Build CVs"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
