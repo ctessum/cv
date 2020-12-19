@@ -122,6 +122,10 @@ var cv = []Section{
 		Name: "Teaching Experience",
 		Items: []Item{
 			{
+				Name: "Developed and taught 'Data Science for Civil and Environmental Engineering'",
+				Time: "Fall 2020",
+			},
+			{
 				Name: "Guest lectures in life cycle assessment, air pollution, and health to undergraduate and graduate students",
 				Time: "2015–Present",
 			},
@@ -177,10 +181,13 @@ var cv = []Section{
 		Name: "Synergistic Activities",
 		Items: []Item{
 			{
+				Name: "Developed the InMAP air quality model (https://inmap.run), which has been downloaded 1,400 times (2012–present)",
+			},
+			{
 				Name: "Grant Application Reviewer: NSF, Health Effects Institute, and US EPA",
 			},
 			{
-				Name: "Report Peer-Reviewer: US Department of Energy",
+				Name: "Report Peer-Reviewer: US Department of Energy (2017)",
 			},
 			{
 				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
