@@ -71,7 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"KelpNN2020",
+			"TessumEJ2021", "DomingoAg2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
@@ -87,8 +87,6 @@ var cv = []Section{
 	{
 		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"DomingoAg2019",
-			"PaolellaEJ2018",
 			"ChamblissiF2018", "MullerPolicy2018",
 			"ThakrarInMAP2018",
 		},
@@ -193,7 +191,7 @@ var cv = []Section{
 				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
-				Name: "Member: American Geophysical Union (AGU) and Association of Environmental Engineering and Science Professors (AEESP)",
+				Name: "Member: American Geophysical Union (AGU), Association of Environmental Engineering and Science Professors (AEESP), and Intenational Society for Environmental Epidemiology (ISEE)",
 			},
 		},
 	},
@@ -203,7 +201,16 @@ var cv2Page = []Section{
 	cv[0],
 	cv[1],
 	cv[10],
-	cv[2],
+	{
+		Name: "Selected Peer-Reviewed Publications <small>(*=corresponding author)</small>",
+		Citations: []template.HTML{
+			"TessumEJ2021", "DomingoAg2021", "KelpNN2020",
+			"Thakrar2020", "ThindEGU2019",
+			"Dimanchev2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
+			"PaolellaGrid2018", "Tessum2017a",
+			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
+		},
+	},
 	cv[3],
 }
 
