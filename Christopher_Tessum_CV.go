@@ -71,7 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"DomingoAg2021", "TessumEJ2021", "KelpNN2020",
+			"Balasubramanian2021", "DomingoAg2021", "TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Thakrar2017", "Chang2017", "Tessum2017a", "Keeler2016", "Touchaei2016",
@@ -81,16 +81,16 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"KelpNN2018",
+			"thakrar2021global", "KelpNN2018",
 		},
 	},
-	{
-		Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
-		Citations: []template.HTML{
-			"ChamblissiF2018", "MullerPolicy2018",
-			"ThakrarInMAP2018",
-		},
-	},
+	// {
+	// 	Name: "Manuscripts in Preparation <small>(*=corresponding author)</small>",
+	// 	Citations: []template.HTML{
+	// 		"ChamblissiF2018", "MullerPolicy2018",
+	// 		"ThakrarInMAP2018",
+	// 	},
+	// },
 	{
 		Name:      "Reports and Other Publications",
 		Citations: []template.HTML{"Tessum2010a", "Tessum2010"},
@@ -107,6 +107,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"tessum2020predicting", "anenberg2020recent", "stylianou2019spatially", "kelp2019deep",
 			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
 			"Tessum2018ISEE", "Tessum2016Cobenefits", "Tessum2016ISEEa",
 			"Tessum2016ISEEb", "Marshall2016HEI", "TessumAAAR2015",
@@ -200,7 +201,7 @@ var cv = []Section{
 var cv2Page = []Section{
 	cv[0],
 	cv[1],
-	cv[10],
+	cv[9],
 	{
 		Name: "Selected Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
