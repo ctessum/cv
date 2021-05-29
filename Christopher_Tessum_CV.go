@@ -125,6 +125,10 @@ var cv = []Section{
 				Time: "Fall 2020",
 			},
 			{
+				Name: "Taught 'Engineering Risk and Uncertainty'",
+				Time: "Spring 2021",
+			},
+			{
 				Name: "Guest lectures in life cycle assessment, air pollution, and health to undergraduate and graduate students",
 				Time: "2015–Present",
 			},
