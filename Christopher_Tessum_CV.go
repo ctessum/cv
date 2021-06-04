@@ -81,7 +81,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"thakrar2021global", "KelpNN2018",
+			"wuInMAPChina", "thakrar2021global", "KelpNN2018",
 		},
 	},
 	// {
