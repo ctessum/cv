@@ -71,6 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
+			"wu2021reduced",
 			"Balasubramanian2021", "DomingoAg2021", "TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
@@ -81,7 +82,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"wuInMAPChina", "thakrar2021global", "KelpNN2018",
+			"thakrar2021global", "KelpNN2018",
 		},
 	},
 	// {
@@ -98,6 +99,9 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
+			"Tessum2022AMS", "Tessum2021AGU_EJ",
+			"Tessum2021UW", "Tessum2021EPRI", "Tessum2021EPAWebinar",
+			"Tessum2021CACHET", "Tessum2021LBNLEAEI", "Tessum2021C40Webinar",
 			"Tessum2021AMS", "Tessum2020ACM",
 			"Tessum2017EIC", "Tessum2017CRC", "TessumHR2015", "TessumMEHA2015", "Tessum2014LBNL",
 			"Tessum2014NatCap", "TessumBeiDa2013", "TessumChinaCDC2013", "Tessum2013AWMA",
@@ -107,6 +111,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"Tessum2021AGU_SrcAppt", "Shiyuan2021AGU",
 			"tessum2020predicting", "anenberg2020recent", "stylianou2019spatially", "kelp2019deep",
 			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
 			"Tessum2018ISEE", "Tessum2016Cobenefits", "Tessum2016ISEEa",
