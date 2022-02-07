@@ -111,6 +111,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"Xiaokai2021IAMA",
 			"Tessum2021AGU_SrcAppt", "Shiyuan2021AGU",
 			"tessum2020predicting", "anenberg2020recent", "stylianou2019spatially", "kelp2019deep",
 			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
