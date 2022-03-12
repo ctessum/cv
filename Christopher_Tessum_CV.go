@@ -212,18 +212,25 @@ var cv = []Section{
 var cv2Page = []Section{
 	cv[0],
 	cv[1],
-	cv[9],
 	{
 		Name: "Selected Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"TessumEJ2021", "DomingoAg2021", "KelpNN2020",
+			"wu2021reduced",
+			"Balasubramanian2021", "DomingoAg2021",
+			"TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
 			"PaolellaGrid2018", "Tessum2017a",
 			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
 		},
 	},
-	cv[3],
+	//cv[3],
+	func() Section {
+		x := cv[9]
+		x.Name = "Scientific, Technical, and Management Experience"
+		x.Items = []Item{x.Items[0], x.Items[3]}
+		return x
+	}(),
 }
 
 var resume = []Section{
