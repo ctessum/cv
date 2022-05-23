@@ -71,7 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"wu2021reduced",
+			"develyn2022wildfire", "wu2021reduced",
 			"Balasubramanian2021", "DomingoAg2021", "TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
