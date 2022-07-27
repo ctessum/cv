@@ -71,7 +71,8 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"develyn2022wildfire", "wu2021reduced",
+			"kleiman2022", "mtessum2022",
+			"thakrar2022global", "develyn2022wildfire", "wu2021reduced",
 			"Balasubramanian2021", "DomingoAg2021", "TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
 			"Dimanchev2019", "Gilmore2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
@@ -82,7 +83,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"thakrar2021global", "KelpNN2018",
+			"KelpNN2018",
 		},
 	},
 	// {
