@@ -71,7 +71,8 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"kleiman2022", "mtessum2022",
+			"jackson2023city", "thind2022environmental",
+			"yuzhou2022ej", "kleiman2022", "mtessum2022",
 			"thakrar2022global", "develyn2022wildfire", "wu2021reduced",
 			"Balasubramanian2021", "DomingoAg2021", "TessumEJ2021", "KelpNN2020",
 			"Thakrar2020", "ThindEGU2019",
@@ -83,7 +84,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
 		Citations: []template.HTML{
-			"KelpNN2018",
+			"park2022learned", "KelpNN2018",
 		},
 	},
 	// {
@@ -100,7 +101,7 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
-			"Tessum2022NASAGMAO",
+			"Tessum2022HAQAST", "Tessum2022NASAGMAO",
 			"Tessum2022AMS", "Tessum2021AGU_EJ",
 			"Tessum2021UW", "Tessum2021EPRI", "Tessum2021EPAWebinar",
 			"Tessum2021CACHET", "Tessum2021LBNLEAEI", "Tessum2021C40Webinar",
@@ -113,7 +114,8 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
-			"Xiaokai2021IAMA",
+			"Park2023AMS", "gallagher2022scaling", "singh2022distributional", "Park2022NeurIPS", "Guo2022ACM",
+			"Yang2022ACM", "Wang2022Tweeds", "wang2022addressing", "koloutsou2022cloud", "Tessum2022ISES", "Tessum2022SIAM", "Xiaokai2021IAMA",
 			"Tessum2021AGU_SrcAppt", "Shiyuan2021AGU",
 			"tessum2020predicting", "anenberg2020recent", "stylianou2019spatially", "kelp2019deep",
 			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
