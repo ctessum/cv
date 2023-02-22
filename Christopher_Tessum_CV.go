@@ -132,11 +132,11 @@ var cv = []Section{
 		Items: []Item{
 			{
 				Name: "Developed and taught 'Data Science for Civil and Environmental Engineering'",
-				Time: "Fall 2020",
+				Time: "Fall 2020–Present",
 			},
 			{
 				Name: "Taught 'Engineering Risk and Uncertainty'",
-				Time: "Spring 2021",
+				Time: "Spring 2021–Present",
 			},
 			{
 				Name: "Guest lectures in life cycle assessment, air pollution, and health to undergraduate and graduate students",
