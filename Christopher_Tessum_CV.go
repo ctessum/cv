@@ -131,11 +131,11 @@ var cv = []Section{
 		Name: "Teaching Experience",
 		Items: []Item{
 			{
-				Name: "Developed and taught 'Data Science for Civil and Environmental Engineering'",
+				Name: "Developed and taught 'CEE 492: Data Science for Civil and Environmental Engineering'",
 				Time: "Fall 2020–Present",
 			},
 			{
-				Name: "Taught 'Engineering Risk and Uncertainty'",
+				Name: "Taught 'CEE 202: Engineering Risk and Uncertainty'",
 				Time: "Spring 2021–Present",
 			},
 			{
