@@ -69,7 +69,7 @@ var cv = []Section{
 		},
 	},
 	{
-		Name: "Peer-Reviewed Publications <small>(*=corresponding author)</small>",
+		Name: "Peer-Reviewed Publications <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
 			"gallagher2023", "jackson2023city", "thind2022environmental",
 			"yuzhou2022ej", "kleiman2022", "mtessum2022",
@@ -82,9 +82,9 @@ var cv = []Section{
 		},
 	},
 	{
-		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author)</small>",
+		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"park2022learned", "KelpNN2018",
+			"park2023learned", "park2022learned", "KelpNN2018",
 		},
 	},
 	// {
@@ -204,7 +204,7 @@ var cv = []Section{
 				Name: "Report Peer-Reviewer: US Department of Energy (2017), National Academies of Sciences, Engineering, and Medicine (2023)",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
+				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Nature Communications</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
 			},
 			{
 				Name: "Member: American Geophysical Union (AGU), Association of Environmental Engineering and Science Professors (AEESP), and Intenational Society for Environmental Epidemiology (ISEE)",
@@ -390,8 +390,10 @@ func parseBibtex(bibs []string) map[template.HTML]*bibtex.Element {
 }
 
 func underlineName(s string) string {
-	s = strings.Replace(s, "C.W. Tessum", "<u>C.W. Tessum</u>", -1)
-	return strings.Replace(s, "Tessum, C.W.", "<u>Tessum, C.W.</u>", -1)
+	for _, name := range []string{"Tessum, C.W.", "C.W. Tessum", "Park, M", "M Park"} {
+		s = strings.Replace(s, name, fmt.Sprintf("<u>%s</u>", name), -1)
+	}
+	return s
 }
 
 func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(template.HTML) (template.HTML, error) {
