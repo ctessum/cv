@@ -330,6 +330,7 @@ var resume = []Section{
 				Name: `Journal Peer-Reviewer:
 				<i>Proceedings of the National Academy of Sciences of the USA</i>,
 				<i>Nature Sustainability</i>,
+				<i>Nature Communications</i>,
 				<i>Environmental Science and Technology</i>,
 				<i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>,
 				<i>Proceedings of the Royal Society of London A</i>,
