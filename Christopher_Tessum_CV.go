@@ -101,7 +101,7 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
-			"Tessum2023NASA614",
+			"Tessum2023AGU", "Tessum2023NASA614",
 			"Tessum2022HAQAST", "Tessum2022NASAGMAO",
 			"Tessum2022AMS", "Tessum2021AGU_EJ",
 			"Tessum2021UW", "Tessum2021EPRI", "Tessum2021EPAWebinar",
