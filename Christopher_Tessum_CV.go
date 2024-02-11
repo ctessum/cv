@@ -12,9 +12,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/caltechlibrary/bibtex"
 	"github.com/chromedp/cdproto/page"
 	"github.com/chromedp/chromedp"
+	"github.com/nickng/bibtex"
 )
 
 var bibs = []string{
@@ -71,6 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
+			"Peshin_2024", "Schollaert_2024", "Schollaert2023", "ywang2023", "Nawaz2023",
 			"gallagher2023", "jackson2023city", "thind2022environmental",
 			"yuzhou2022ej", "kleiman2022", "mtessum2022",
 			"thakrar2022global", "develyn2022wildfire", "wu2021reduced",
@@ -84,7 +85,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"park2023learned", "park2022learned", "KelpNN2018",
+			"yang2024atmospheric", "park2023learned", "park2022learned", "KelpNN2018",
 		},
 	},
 	// {
@@ -101,7 +102,7 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
-			"Tessum2023AGU", "Tessum2023NASA614",
+			"Tessum2023AGU", "Tessum2023UVic", "Tessum2023NASA614",
 			"Tessum2022HAQAST", "Tessum2022NASAGMAO",
 			"Tessum2022AMS", "Tessum2021AGU_EJ",
 			"Tessum2021UW", "Tessum2021EPRI", "Tessum2021EPAWebinar",
@@ -115,6 +116,8 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"yang2023agu", "swang2023agu", "ran2023agu",
+			"park2023agu", "jliu2023agu", "fatima2023agu", "guo2023agu", "park2023iama",
 			"Park2023AMS", "gallagher2022scaling", "singh2022distributional", "Park2022NeurIPS", "Guo2022ACM",
 			"Yang2022ACM", "Wang2022Tweeds", "wang2022addressing", "koloutsou2022cloud", "Tessum2022ISES", "Tessum2022SIAM", "Xiaokai2021IAMA",
 			"Tessum2021AGU_SrcAppt", "Shiyuan2021AGU",
@@ -158,7 +161,7 @@ var cv = []Section{
 		Items: []Item{
 			{
 				Name: "Owner/Partner: CT Consulting LLC, Enviromind LLC",
-				Time: "2008–Present",
+				Time: "2008–2023",
 			},
 			{
 				Name: "Energy Auditor: Energy Management Solutions, Inc.",
@@ -195,19 +198,24 @@ var cv = []Section{
 		Name: "Synergistic Activities",
 		Items: []Item{
 			{
-				Name: "Developed the InMAP air quality model (https://inmap.run), which has been downloaded 1,400 times (2012–present)",
+				Name: "Developer of the InMAP air quality model (https://inmap.run), which has been downloaded 5,000 times and has a user forum with 162 members",
+				Time: "2012–present",
 			},
 			{
-				Name: "Grant Application Reviewer: NSF, Health Effects Institute, US EPA, and NASA",
+				Name: "Member of US EPA Science Advisory Committee for 'Review of Air Pollution Benefits Methods and Environmental Benefits Mapping and Analysis Program (BenMAP) Tool'",
+				Time: "2023",
 			},
 			{
-				Name: "Report Peer-Reviewer: US Department of Energy (2017), National Academies of Sciences, Engineering, and Medicine (2023)",
+				Name: "Facilitator for the UIUC Grainger College of Engineering 2023 summer workshop series on 'Incorporating Computing into Engineering Curriculum'",
+				Time: "2023",
 			},
 			{
-				Name: "Journal Peer-Reviewer: <i>Proceedings of the National Academy of Sciences</i>, <i>Nature Sustainability</i>, <i>Nature Communications</i>, <i>Environmental Science and Technology</i>, <i>Atmospheric Environment</i>,  <i>Environmental Research Letters</i>, <i>Proceedings of the Royal Society of London A</i>, <i>GeoHealth</i>, <i>Journal of Advances in Modeling Earth Systems</i>",
+				Name: "Member of Health Effects Institute (HEI) panel of experts to plan a Request for Proposals about electrification of diesel truck and bus fleets in the US",
+				Time: "2023",
 			},
 			{
-				Name: "Member: American Geophysical Union (AGU), Association of Environmental Engineering and Science Professors (AEESP), and Intenational Society for Environmental Epidemiology (ISEE)",
+				Name: "Member of <i>GeoHealth</i> Early Career Editorial Board",
+				Time: "2024–present",
 			},
 		},
 	},
@@ -368,36 +376,36 @@ func render(cv []Section, filename string) {
 	printPDF(b.Bytes(), filename)
 }
 
-func parseBibtex(bibs []string) map[template.HTML]*bibtex.Element {
-	out := make(map[template.HTML]*bibtex.Element)
+func parseBibtex(bibs []string) map[template.HTML]*bibtex.BibEntry {
+	out := make(map[template.HTML]*bibtex.BibEntry)
 	for _, bib := range bibs {
 		f, err := os.Open(bib)
 		check(err)
 		b := new(bytes.Buffer)
 		_, err = io.Copy(b, f)
 		check(err)
-		elems, err := bibtex.Parse(b.Bytes())
+		elems, err := bibtex.Parse(b)
 		check(err)
-		for _, e := range elems {
-			for _, key := range e.Keys {
-				if _, ok := out[template.HTML(key)]; ok {
-					panic(key)
-				}
-				out[template.HTML(key)] = e
+		for _, e := range elems.Entries {
+			if _, ok := out[template.HTML(e.CiteName)]; ok {
+				panic(e.CiteName)
 			}
+			out[template.HTML(e.CiteName)] = e
 		}
 	}
 	return out
 }
 
 func underlineName(s string) string {
-	for _, name := range []string{"Tessum, C.W.", "C.W. Tessum", "Park, M", "M Park"} {
+	for _, name := range []string{"Tessum, C.W.", "C.W. Tessum", "Park, M", "M Park",
+		"X Yang", "Yang, X", "S Wang", "Wang, S", "L Guo", "Guo, L", "Q Fatima", "Fatima, Q",
+		"Liu, J", "J Liu", "X Ran", "Ran, X"} {
 		s = strings.Replace(s, name, fmt.Sprintf("<u>%s</u>", name), -1)
 	}
 	return s
 }
 
-func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(template.HTML) (template.HTML, error) {
+func formatCitationFunc(citations map[template.HTML]*bibtex.BibEntry) func(template.HTML) (template.HTML, error) {
 	return func(key template.HTML) (template.HTML, error) {
 		elem, ok := citations[key]
 		if !ok {
@@ -407,11 +415,11 @@ func formatCitationFunc(citations map[template.HTML]*bibtex.Element) func(templa
 		case "article":
 			return template.HTML(underlineName(parseArticle(elem))), nil
 		case "inproceedings":
-			return template.HTML(parseProceedings(elem)), nil
+			return template.HTML(underlineName(parseProceedings(elem))), nil
 		case "techreport":
-			return template.HTML(parseReport(elem)), nil
+			return template.HTML(underlineName(parseReport(elem))), nil
 		case "incollection":
-			return template.HTML(parseCollection(elem)), nil
+			return template.HTML(underlineName(parseCollection(elem))), nil
 		default:
 			return "", fmt.Errorf("invalid citation type %s", elem.Type)
 		}
@@ -424,15 +432,27 @@ func init() {
 	matchDots = regexp.MustCompile(`[\.]{2,}`)
 }
 
-func parseArticle(elem *bibtex.Element) string {
-	title := parseTitle(elem.Tags["title"])
-	authors := parseAuthors(elem.Tags["author"])
-	year := parseYear(elem.Tags["year"])
-	journal := parsePublication(elem.Tags["journal"])
-	volume := parseVolume(elem.Tags["volume"])
-	issue := parseIssue(elem.Tags["number"])
-	pages := parsePages(elem.Tags["pages"])
-	url := parseURL(elem.Tags["url"])
+func parseArticle(elem *bibtex.BibEntry) string {
+	for k, v := range elem.Fields {
+		elem.Fields[strings.ToLower(k)] = v
+	}
+	title := parseTitle(elem.Fields["title"].String())
+	authors := parseAuthors(elem.Fields["author"].String())
+	year := parseYear(elem.Fields["year"].String())
+	journal := parsePublication(elem.Fields["journal"].String())
+	volume := ""
+	if elem.Fields["volume"] != nil {
+		volume = parseVolume(elem.Fields["volume"].String())
+	}
+	issue := ""
+	if elem.Fields["number"] != nil {
+		issue = parseIssue(elem.Fields["number"].String())
+	}
+	pages := ""
+	if elem.Fields["pages"] != nil {
+		pages = parsePages(elem.Fields["pages"].String())
+	}
+	url := parseURL(elem.Fields["url"].String())
 	s := authors
 	if year != "" {
 		s = fmt.Sprintf("%s (%s)", s, year)
@@ -465,35 +485,35 @@ func parseArticle(elem *bibtex.Element) string {
 	return matchDots.ReplaceAllString(s, ".")
 }
 
-func parseProceedings(elem *bibtex.Element) string {
-	title := parseTitle(elem.Tags["title"])
-	authors := parseAuthors(elem.Tags["author"])
-	year := parseYear(elem.Tags["year"])
-	institution := parseBookTitle(elem.Tags["booktitle"])
-	location := parseLocation(elem.Tags["address"])
+func parseProceedings(elem *bibtex.BibEntry) string {
+	title := parseTitle(elem.Fields["title"].String())
+	authors := parseAuthors(elem.Fields["author"].String())
+	year := parseYear(elem.Fields["year"].String())
+	institution := parseBookTitle(elem.Fields["booktitle"].String())
+	location := parseLocation(elem.Fields["address"].String())
 	s := fmt.Sprintf("%s (%s) %s. Presented at %s, %s.", authors, year, title, institution, location)
 	return s
 }
 
-func parseReport(elem *bibtex.Element) string {
-	title := parseTitle(elem.Tags["title"])
-	authors := parseAuthors(elem.Tags["author"])
-	year := parseYear(elem.Tags["year"])
-	institution := parseBookTitle(elem.Tags["institution"])
-	location := parseLocation(elem.Tags["address"])
+func parseReport(elem *bibtex.BibEntry) string {
+	title := parseTitle(elem.Fields["title"].String())
+	authors := parseAuthors(elem.Fields["author"].String())
+	year := parseYear(elem.Fields["year"].String())
+	institution := parseBookTitle(elem.Fields["institution"].String())
+	location := parseLocation(elem.Fields["address"].String())
 	s := fmt.Sprintf("%s (%s) \"%s\", tech. rep.: %s, %s.", authors, year, title, institution, location)
 	return s
 }
 
-func parseCollection(elem *bibtex.Element) string {
-	title := parseTitle(elem.Tags["title"])
-	authors := parseAuthors(elem.Tags["author"])
-	year := parseYear(elem.Tags["year"])
-	book := parseBookTitle(elem.Tags["booktitle"])
-	eds := removeBrackets(elem.Tags["editor"])
-	pub := removeBrackets(elem.Tags["publisher"])
-	pages := parsePages(elem.Tags["pages"])
-	url := parseURL(elem.Tags["url"])
+func parseCollection(elem *bibtex.BibEntry) string {
+	title := parseTitle(elem.Fields["title"].String())
+	authors := parseAuthors(elem.Fields["author"].String())
+	year := parseYear(elem.Fields["year"].String())
+	book := parseBookTitle(elem.Fields["booktitle"].String())
+	eds := removeBrackets(elem.Fields["editor"].String())
+	pub := removeBrackets(elem.Fields["publisher"].String())
+	pages := parsePages(elem.Fields["pages"].String())
+	url := parseURL(elem.Fields["url"].String())
 	s := fmt.Sprintf("%s (%s) \"%s\", in <i>%s</i>, ed. by %s, %s, %s, %s.", authors, year, title, book, eds, pub, pages, url)
 	return s
 }
@@ -522,10 +542,16 @@ func parseAuthors(a string) string {
 
 func parseName(i, n int, a string) string {
 	corresponding := strings.Contains(a, "*")
+	a = strings.Replace(a, "*", "", -1)
 	a = strings.TrimLeft(strings.TrimRight(a, "}"), "{")
 	names := strings.Split(a, " ")
+	if !strings.Contains(names[0], ",") {
+		n = len(names) - 1
+		names = append(names[n:n+1], names[0:n]...)
+	}
 	family := strings.TrimRight(strings.TrimSpace(names[0]), ",")
 	given := strings.ToUpper(string(names[1][0])) + "."
+	given = strings.Replace(given, "~", " ", -1)
 	var middle string
 	if len(names) == 3 {
 		middle = strings.TrimRight(strings.TrimSpace(string(names[2][0])), ".") + "."
