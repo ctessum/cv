@@ -97,7 +97,7 @@ var cv = []Section{
 	// },
 	{
 		Name:      "Reports and Other Publications",
-		Citations: []template.HTML{"Tessum2010a", "Tessum2010"},
+		Citations: []template.HTML{"SABBenMAP2024", "Tessum2010a", "Tessum2010"},
 	},
 	{
 		Name: "Invited Presentations",
@@ -501,7 +501,26 @@ func parseReport(elem *bibtex.BibEntry) string {
 	year := parseYear(elem.Fields["year"].String())
 	institution := parseBookTitle(elem.Fields["institution"].String())
 	location := parseLocation(elem.Fields["address"].String())
-	s := fmt.Sprintf("%s (%s) \"%s\", tech. rep.: %s, %s.", authors, year, title, institution, location)
+	pages := ""
+	if elem.Fields["pages"] != nil {
+		pages = parsePages(elem.Fields["pages"].String())
+	}
+	url := ""
+	if elem.Fields["url"] != nil {
+		url = parseURL(elem.Fields["url"].String())
+	}
+	s := fmt.Sprintf("%s (%s) \"%s\", tech. rep.: %s, %s", authors, year, title, institution, location)
+	if pages != "" {
+		if url != "" {
+			s += fmt.Sprintf(", <a href=%s>%s</a>.", url, pages)
+		} else {
+			s += ", " + pages + "."
+		}
+	} else if url != "" {
+		s += fmt.Sprintf(", <a href=%s>%s</a>.", url, url)
+	} else {
+		s += "."
+	}
 	return s
 }
 
