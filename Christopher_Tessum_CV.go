@@ -71,7 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"Peshin_2024", "Schollaert_2024", "Schollaert2023", "ywang2023", "Nawaz2023",
+			"giang2024", "Peshin_2024", "Schollaert_2024", "Schollaert2023", "ywang2023", "Nawaz2023",
 			"gallagher2023", "jackson2023city", "thind2022environmental",
 			"yuzhou2022ej", "kleiman2022", "mtessum2022",
 			"thakrar2022global", "develyn2022wildfire", "wu2021reduced",
@@ -569,8 +569,8 @@ func parseName(i, n int, a string) string {
 	a = strings.TrimLeft(strings.TrimRight(a, "}"), "{")
 	names := strings.Split(a, " ")
 	if !strings.Contains(names[0], ",") {
-		n = len(names) - 1
-		names = append(names[n:n+1], names[0:n]...)
+		nn := len(names) - 1
+		names = append(names[nn:nn+1], names[0:nn]...)
 	}
 	family := strings.TrimRight(strings.TrimSpace(names[0]), ",")
 	given := strings.ToUpper(string(names[1][0])) + "."
