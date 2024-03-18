@@ -85,7 +85,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"yang2024atmospheric", "park2023learned", "park2022learned", "KelpNN2018",
+			"yang2024atmospheric", "park2023learned", "KelpNN2018",
 		},
 	},
 	// {
@@ -98,6 +98,10 @@ var cv = []Section{
 	{
 		Name:      "Reports and Other Publications",
 		Citations: []template.HTML{"SABBenMAP2024", "Tessum2010a", "Tessum2010"},
+	},
+	{
+		Name:      "Conference Papers",
+		Citations: []template.HTML{"park2022learned", "koloutsou2022cloud"},
 	},
 	{
 		Name: "Invited Presentations",
@@ -119,7 +123,7 @@ var cv = []Section{
 			"yang2023agu", "swang2023agu", "ran2023agu",
 			"park2023agu", "jliu2023agu", "fatima2023agu", "guo2023agu", "park2023iama",
 			"Park2023AMS", "gallagher2022scaling", "singh2022distributional", "Park2022NeurIPS", "Guo2022ACM",
-			"Yang2022ACM", "Wang2022Tweeds", "wang2022addressing", "koloutsou2022cloud", "Tessum2022ISES", "Tessum2022SIAM", "Xiaokai2021IAMA",
+			"Yang2022ACM", "Wang2022Tweeds", "wang2022addressing", "Tessum2022ISES", "Tessum2022SIAM", "Xiaokai2021IAMA",
 			"Tessum2021AGU_SrcAppt", "Shiyuan2021AGU",
 			"tessum2020predicting", "anenberg2020recent", "stylianou2019spatially", "kelp2019deep",
 			"Tessum2018CMASEIEIO", "Tessum2018CMASInMAP", "Tessum2018CMASNN",
