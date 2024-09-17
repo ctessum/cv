@@ -10,18 +10,19 @@ doi = {10.1073/pnas.2215688121},
 URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2215688121}
 }
 
-
-
 @article{yang2024atmospheric,
-      title={Atmospheric chemistry surrogate modeling with sparse identification of nonlinear dynamics}, 
-      author={Xiaokai Yang and Lin Guo and Zhonghua Zheng and Nicole Riemer and Christopher W. Tessum*},
-      year={2024},
-      eprint={2401.06108},
-      archivePrefix={arXiv},
-      journal={arXiv preprint},
-      pages={arXiv:2401.06108},
-      url={https://arxiv.org/abs/2401.06108},
-      primaryClass={physics.comp-ph}
+author = {Yang, Xiaokai and Guo, Lin and Zheng, Zhonghua and Riemer, Nicole and Tessum, Christopher W.*},
+title = {Atmospheric Chemistry Surrogate Modeling With Sparse Identification of Nonlinear Dynamics},
+journal = {Journal of Geophysical Research: Machine Learning and Computation},
+volume = {1},
+number = {2},
+pages = {e2024JH000132},
+doi = {https://doi.org/10.1029/2024JH000132},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JH000132},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024JH000132},
+note = {e2024JH000132 2024JH000132},
+abstract = {Abstract Modeling atmospheric chemistry is computationally expensive and limits the widespread use of chemical transport models. This computational cost arises from solving high-dimensional systems of stiff differential equations. Previous work has demonstrated the promise of machine learning (ML) to accelerate air quality model simulations but has suffered from numerical instability during long-term simulations. This may be because previous ML-based efforts have relied on explicit Euler time integration—which is known to be unstable for stiff systems—and have used neural networks which are prone to overfitting. We hypothesize that parsimonious models combined with modern numerical integration techniques can overcome this limitation. Using a small-scale mechanism to explore the potential of these methods, we have created a machine-learned surrogate by (a) reducing dimensionality using singular value decomposition to create an interpretably-compressed low-dimensional latent space and (b) using Sparse Identification of Nonlinear Dynamics (SINDy) to create a differential-equation-based representation of the underlying dynamics in the compressed latent space with reduced stiffness. The root mean square error of ML model prediction for ozone concentration over 9 days is 37.8\% of the root mean square concentration across all simulations in our testing data set. The surrogate model is 10× faster with 12× fewer integration timesteps compared to reference model and is numerically stable in all tested simulations. Overall, we find that SINDy can be used to create fast, stable, and accurate surrogates of a simple photochemical mechanism. In future work, we will explore the application of this method to more detailed mechanisms and their use in large-scale simulations.},
+year = {2024}
 }
 
 @techreport{SABBenMAP2024,
