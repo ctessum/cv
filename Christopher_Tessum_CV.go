@@ -341,6 +341,7 @@ var resume = []Section{
 			},
 			{
 				Name: `Journal Peer-Reviewer:
+				<i>Nature</i>,
 				<i>Science</i>,
 				<i>Proceedings of the National Academy of Sciences of the USA</i>,
 				<i>Nature Sustainability</i>,
