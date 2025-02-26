@@ -71,7 +71,7 @@ var cv = []Section{
 	{
 		Name: "Peer-Reviewed Publications <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"yang2024atmospheric", "park2024",
+			"Goodkind2025", "guo2024uncertainty", "yang2024atmospheric", "park2024",
 			"giang2024", "Peshin_2024", "Schollaert_2024", "Schollaert2023", "ywang2023", "Nawaz2023",
 			"gallagher2023", "jackson2023city", "thind2022environmental",
 			"yuzhou2022ej", "kleiman2022", "mtessum2022",
@@ -86,7 +86,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"kazemi2024aidovecl", "guo2024uncertainty", "KelpNN2018",
+			"kazemi2024aidovecl", "KelpNN2018",
 		},
 	},
 	// {
@@ -404,9 +404,9 @@ func parseBibtex(bibs []string) map[template.HTML]*bibtex.BibEntry {
 }
 
 func underlineName(s string) string {
-	for _, name := range []string{"Tessum, C.W.", "C.W. Tessum", "Park, M", "M Park",
-		"X Yang", "Yang, X", "S Wang", "Wang, S", "L Guo", "Guo, L", "Q Fatima", "Fatima, Q",
-		"Liu, J", "J Liu", "X Ran", "Ran, X"} {
+	for _, name := range []string{"Tessum, C.W.", "C.W. Tessum", "Park, M", "M. Park",
+		"X. Yang", "Yang, X", "S. Wang", "Wang, S", "L. Guo", "Guo, L", "Q. Fatima", "Fatima, Q",
+		"Liu, J", "J. Liu", "X. Ran", "Ran, X", "Kazemi, A", "A. Kazemi"} {
 		s = strings.Replace(s, name, fmt.Sprintf("<u>%s</u>", name), -1)
 	}
 	return s
