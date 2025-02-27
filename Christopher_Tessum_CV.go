@@ -660,7 +660,12 @@ func printPDF(cv []byte, filename string) {
 		check(err)
 	}))
 
-	ctx, cancel := chromedp.NewContext(context.Background())
+	opts := append(chromedp.DefaultExecAllocatorOptions[:], chromedp.NoSandbox)
+
+	allocCtx, cancel := chromedp.NewExecAllocator(context.Background(), opts...)
+	defer cancel()
+
+	ctx, cancel := chromedp.NewContext(allocCtx)
 	defer cancel()
 
 	pdfPrint := chromedp.ActionFunc(func(ctx context.Context) error {
