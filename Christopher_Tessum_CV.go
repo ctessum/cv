@@ -107,6 +107,7 @@ var cv = []Section{
 	{
 		Name: "Invited Presentations",
 		Citations: []template.HTML{
+			"Tessum2024mena", "Tessum2024CMAS", "Tessum2024nasaAI",
 			"Tessum2023AGU", "Tessum2023UVic", "Tessum2023NASA614",
 			"Tessum2022HAQAST", "Tessum2022NASAGMAO",
 			"Tessum2022AMS", "Tessum2021AGU_EJ",
@@ -121,6 +122,7 @@ var cv = []Section{
 	{
 		Name: "Conference Presentations",
 		Citations: []template.HTML{
+			"kim2024agu", "yang2024agu", "swang2024agu", "park2024agu", "liu2024agu", "guo2024agu", "fatima2024agu",
 			"yang2023agu", "swang2023agu", "ran2023agu",
 			"park2023agu", "jliu2023agu", "fatima2023agu", "guo2023agu", "park2023iama",
 			"Park2023AMS", "gallagher2022scaling", "singh2022distributional", "Park2022NeurIPS", "Guo2022ACM",
