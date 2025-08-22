@@ -86,7 +86,7 @@ var cv = []Section{
 	{
 		Name: "Preprints and Manuscripts Submitted for Review <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"wang2025trade", "yang2025atmospheric", "kazemi2024aidovecl", "KelpNN2018",
+			"koolik2025methodological", "wang2025trade", "yang2025atmospheric", "kazemi2024aidovecl", "KelpNN2018",
 		},
 	},
 	// {
@@ -218,8 +218,8 @@ var cv = []Section{
 				Time: "2023",
 			},
 			{
-				Name: "Member of Health Effects Institute (HEI) panel of experts to plan a Request for Proposals about electrification of diesel truck and bus fleets in the US",
-				Time: "2023",
+				Name: "Member of Health Effects Institute (HEI) panel of experts to commission a study and write a report about of diesel fleet renewal in the US",
+				Time: "2023–present",
 			},
 			{
 				Name: "Member of <i>GeoHealth</i> Early Career Editorial Board",
