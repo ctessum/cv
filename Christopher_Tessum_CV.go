@@ -206,7 +206,7 @@ var cv = []Section{
 		Name: "Synergistic Activities",
 		Items: []Item{
 			{
-				Name: "Developer of the InMAP air quality model (https://inmap.run), which has been downloaded 5,000 times and has a user forum with 162 members",
+				Name: "Developer of the InMAP air quality model (https://inmap.run), which has been downloaded 6,600 times and has a user forum with 191 members",
 				Time: "2012–present",
 			},
 			{
