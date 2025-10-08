@@ -185,23 +185,39 @@ var cv = []Section{
 			},
 		},
 	},
-	/*{
+	{
 		Name: "Honors and Awards",
 		Items: []Item{
 			{
-				Name: "Third place student poster award: American Center for Life Cycle Analysis Annual Conference",
-				Time: "2011",
+				Name: "EPA Science to Achieve Results (STAR) Early Career Award",
+				Time: "2020",
 			},
 			{
-				Name: "Admission to First Annual Fulbright US–Brazil Biofuels Short Course",
-				Time: "2009",
+				Name: "NASA Early Career Faculty Award",
+				Time: "2021",
 			},
 			{
-				Name: "National Merit Scholarship	",
-				Time: "2002–2006",
+				Name: "NSF CAREER Award",
+				Time: "2024",
 			},
+			{
+				Name: "American Geophysical Union (AGU) GeoHealth Early Career Award",
+				Time: "2025",
+			},
+			// {
+			// 	Name: "Third place student poster award: American Center for Life Cycle Analysis Annual Conference",
+			// 	Time: "2011",
+			// },
+			// {
+			// 	Name: "Admission to First Annual Fulbright US–Brazil Biofuels Short Course",
+			// 	Time: "2009",
+			// },
+			// {
+			// 	Name: "National Merit Scholarship	",
+			// 	Time: "2002–2006",
+			// },
 		},
-	},*/
+	},
 	{
 		Name: "Synergistic Activities",
 		Items: []Item{
@@ -227,30 +243,49 @@ var cv = []Section{
 			},
 		},
 	},
+	{
+		Name: "Student Research Advising",
+		Items: []Item{
+			{
+				Name: "PhD Graduate: Amir Kazemi, Dissertation: \"Advancing Generative AI for Enhanced Analytics in Urban and Environmental Monitoring\"",
+				Time: "2023–2024",
+			},
+			{
+				Name: "Current PhD Students: Shiyuan Wang, Xiaokai Yang, Lin Guo, Manho Park, Qurat ul ain Fatima, and Jialin Liu",
+				Time: "2020–present",
+			},
+			{
+				Name: "Mentored five undergraduate students in REU programs, one high-school student researcher, and ten graduate student independent study projects, with one undergraduate serving a critical role in an externally funded research project",
+				Time: "2020–present",
+			},
+		},
+	},
 }
 
 var cv2Page = []Section{
 	cv[0],
 	cv[1],
+	cv[10],
 	{
-		Name: "Selected Peer-Reviewed Publications <small>(*=corresponding author)</small>",
+		Name: "Selected Peer-Reviewed Publications <small>(*=corresponding author; self and advisees are underlined)</small>",
 		Citations: []template.HTML{
-			"wu2021reduced",
-			"Balasubramanian2021", "DomingoAg2021",
-			"TessumEJ2021", "KelpNN2020",
-			"Thakrar2020", "ThindEGU2019",
-			"Dimanchev2019", "GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", "LiuTrans2018",
-			"PaolellaGrid2018", "Tessum2017a",
-			"Tessum2015a", "Tessum2014a", "Hu2014a", "Tessum2012", "Millet2012",
+			"guo2024uncertainty", "yang2024atmospheric", "park2024",
+			"giang2024", "ywang2023", "yuzhou2022ej",
+			"DomingoAg2021",
+			"TessumEJ2021",
+			"Thakrar2020",
+			"GoodkindISRM2019", "HillCorn2019", "TessumEIO2019", //"LiuTrans2018",
+			"Tessum2017a",
+			"Tessum2015a", "Tessum2014a", "Tessum2012",
 		},
 	},
-	//cv[3],
-	func() Section {
-		x := cv[9]
-		x.Name = "Scientific, Technical, and Management Experience"
-		x.Items = []Item{x.Items[0], x.Items[3]}
-		return x
-	}(),
+	cv[12],
+	// func() Section {
+	// 	x := cv[9]
+	// 	x.Name = "Scientific, Technical, and Management Experience"
+	// 	x.Items = []Item{x.Items[0], x.Items[3]}
+	// 	return x
+	// }(),
 }
 
 var resume = []Section{
